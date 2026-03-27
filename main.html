@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAIS Agricultural Data Explorer</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- DataTables CSS -->
+    <link href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            margin: 0;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #fff !important;
+        }
+        .navbar-brand i {
+            margin-right: 10px;
+        }
+        .main-container {
+            background: white;
+            border-radius: 15px 15px 0 0;
+            margin-top: -20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            min-height: calc(100vh - 76px);
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        .stats-card {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            border: none;
+        }
+        .stats-card .card-body {
+            padding: 2rem;
+            text-align: center;
+        }
+        .stats-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .stats-label {
+            font-size: 1rem;
+            opacity: 0.9;
+            font-weight: 500;
+        }
+        .filter-section {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        .filter-section .form-label {
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 0.5rem;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            border: none;
+            border-radius: 25px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,123,255,0.4);
+        }
+        .btn-secondary {
+            border-radius: 25px;
+            padding: 12px 30px;
+            font-weight: 600;
+        }
+        .table-container {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        #map {
+            height: 600px;
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .legend {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            padding: 5px;
+            border-radius: 5px;
+            transition: background-color 0.2s ease;
+        }
+        .legend-item:hover {
+            background-color: #f8f9fa;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .summary-table {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .summary-table h5 {
+            color: #495057;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        .nav-tabs .nav-link {
+            border: none;
+            border-radius: 10px 10px 0 0;
+            font-weight: 600;
+            color: #6c757d;
+            transition: all 0.3s ease;
+        }
+        .nav-tabs .nav-link.active {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            border: none;
+        }
+        .tab-content {
+            background: white;
+            border-radius: 0 15px 15px 15px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        .data-source-badge {
+            font-size: 0.75rem;
+            padding: 0.375rem 0.75rem;
+            margin: 0.125rem;
+            border-radius: 15px;
+            font-weight: 500;
+        }
+        .loading-spinner {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+        }
+        @media (max-width: 768px) {
+            .main-container {
+                margin-top: -10px;
+                padding: 20px;
+            }
+            .stats-card .card-body {
+                padding: 1.5rem;
+            }
+            .stats-number {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-chart-line"></i> RAIS Agricultural Data Explorer
+            </a>
+            <div class="navbar-text text-light">
+                <i class="fas fa-database"></i> Brazilian Agricultural Employment Data (2023)
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <!-- Loading Spinner -->
+        <div class="loading-spinner" id="loading-spinner">
+            <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+        <div class="main-container" id="main-content" style="display: none;">
+            <!-- Statistics Cards -->
+            <div class="row mb-4" id="stats-row">
+                <div class="col-md-3 mb-3">
+                    <div class="card stats-card h-100">
+                        <div class="card-body">
+                            <div class="stats-number" id="total-municipios">-</div>
+                            <div class="stats-label">Municipalities</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card stats-card h-100">
+                        <div class="card-body">
+                            <div class="stats-number" id="total-employment">-</div>
+                            <div class="stats-label">Total Employment Links</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card stats-card h-100">
+                        <div class="card-body">
+                            <div class="stats-number" id="avg-employment">-</div>
+                            <div class="stats-label">Avg per Municipality</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card stats-card h-100">
+                        <div class="card-body">
+                            <div class="stats-number" id="data-sources">-</div>
+                            <div class="stats-label">Data Sources</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Summary Table -->
+            <div class="summary-table" id="summary-section">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5 class="mb-0"><i class="fas fa-chart-bar"></i> Data Summary</h5>
+                    <div id="filter-status" class="badge bg-info" style="display: none;">
+                        <i class="fas fa-filter"></i> Filtered View
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover" id="summary-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Category</th>
+                                <th>Count</th>
+                                <th>Percentage</th>
+                                <th>Top Municipality</th>
+                                <th>Max Employment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>All Municipalities</strong></td>
+                                <td id="summary-total-count">-</td>
+                                <td>100%</td>
+                                <td id="summary-top-municipio">-</td>
+                                <td id="summary-max-employment">-</td>
+                            </tr>
+                            <tr>
+                                <td>High Employment (>5,000)</td>
+                                <td id="summary-high-count">-</td>
+                                <td id="summary-high-percent">-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Medium Employment (1,000-5,000)</td>
+                                <td id="summary-medium-count">-</td>
+                                <td id="summary-medium-percent">-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Low Employment (<1,000)</td>
+                                <td id="summary-low-count">-</td>
+                                <td id="summary-low-percent">-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        <!-- Main Content -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs" id="main-tabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="table-tab" data-bs-toggle="tab" data-bs-target="#table-panel" type="button" role="tab">
+                                    <i class="fas fa-table"></i> Data Tables
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="map-tab" data-bs-toggle="tab" data-bs-target="#map-panel" type="button" role="tab">
+                                    <i class="fas fa-map-marked-alt"></i> Map Visualization
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card-body">
+                        <!-- Filters Section -->
+                        <div class="filter-section">
+                            <h5 class="mb-3"><i class="fas fa-filter"></i> Filter Data</h5>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="data-source-filter" class="form-label">
+                                        <i class="fas fa-file-alt"></i> Data Source
+                                    </label>
+                                    <select class="form-select form-select-lg" id="data-source-filter">
+                                        <option value="all" selected>All Sources</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="min-employment-filter" class="form-label">
+                                        <i class="fas fa-users"></i> Min Employment Links
+                                    </label>
+                                    <input type="number" class="form-control form-control-lg" id="min-employment-filter" placeholder="0" min="0">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="state-filter" class="form-label">
+                                        <i class="fas fa-map-marker-alt"></i> State (UF)
+                                    </label>
+                                    <select class="form-select form-select-lg" id="state-filter">
+                                        <option value="all">All States</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-12 text-center">
+                                    <button class="btn btn-primary btn-lg me-3" id="apply-filters">
+                                        <i class="fas fa-filter"></i> Apply Filters
+                                    </button>
+                                    <button class="btn btn-outline-secondary btn-lg" id="reset-filters">
+                                        <i class="fas fa-undo"></i> Reset All
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tab Content -->
+                        <div class="tab-content" id="main-tab-content">
+                            <!-- Table Panel -->
+                            <div class="tab-pane fade show active" id="table-panel" role="tabpanel">
+                                <div class="table-container">
+                                    <table id="data-table" class="table table-striped table-hover table-responsive">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th><i class="fas fa-hashtag"></i> Code</th>
+                                                <th><i class="fas fa-city"></i> Municipality</th>
+                                                <th><i class="fas fa-map-marker-alt"></i> State</th>
+                                                <th><i class="fas fa-users"></i> Employment Links</th>
+                                                <th><i class="fas fa-globe"></i> Latitude</th>
+                                                <th><i class="fas fa-globe"></i> Longitude</th>
+                                                <th><i class="fas fa-database"></i> Data Sources</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!-- Map Panel -->
+                            <div class="tab-pane fade" id="map-panel" role="tabpanel">
+                                <div id="map"></div>
+                                <div class="legend mt-4">
+                                    <h6 class="mb-3"><i class="fas fa-palette"></i> Employment Links Legend</h6>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background-color: #ff0000;"></div>
+                                        <span><strong>> 10,000</strong> - High concentration</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background-color: #ff8000;"></div>
+                                        <span><strong>5,000 - 10,000</strong> - Medium-high concentration</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background-color: #ffff00;"></div>
+                                        <span><strong>1,000 - 5,000</strong> - Medium concentration</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background-color: #80ff00;"></div>
+                                        <span><strong>500 - 1,000</strong> - Low-medium concentration</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background-color: #00ff00;"></div>
+                                        <span><strong>< 500</strong> - Low concentration</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <script>
+        // Global variables
+        let allData = [];
+        let filteredData = [];
+        let dataTable = null;
+        let map = null;
+        let markers = [];
+        let dataSources = new Set();
+
+        // Color scale for map markers
+        function getColor(employment) {
+            if (employment > 10000) return '#ff0000';
+            if (employment > 5000) return '#ff8000';
+            if (employment > 1000) return '#ffff00';
+            if (employment > 500) return '#80ff00';
+            return '#00ff00';
+        }
+
+        // Extract state from municipality code
+        function getStateFromCode(code) {
+            const stateMap = {
+                '11': 'RO', '12': 'AC', '13': 'AM', '14': 'RR', '15': 'PA', '16': 'AP', '17': 'TO',
+                '21': 'MA', '22': 'PI', '23': 'CE', '24': 'RN', '25': 'PB', '26': 'PE', '27': 'AL', '28': 'SE', '29': 'BA',
+                '31': 'MG', '32': 'ES', '33': 'RJ', '35': 'SP',
+                '41': 'PR', '42': 'SC', '43': 'RS',
+                '50': 'MS', '51': 'MT', '52': 'GO', '53': 'DF'
+            };
+            return stateMap[code.substring(0, 2)] || 'Unknown';
+        }
+
+        // Load data from all JSON files
+        async function loadData() {
+            const spinner = document.getElementById('loading-spinner');
+            const mainContent = document.getElementById('main-content');
+
+            spinner.style.display = 'block';
+
+            try {
+                // Load aggregated data
+                const response = await fetch('./2023/total/aggregated_municipios.json');
+                const rawData = await response.json();
+
+                // Process data
+                allData = rawData.filter(item => item.municipio !== 'TOTAL').map(item => ({
+                    ...item,
+                    state: getStateFromCode(item.municipio),
+                    employment: parseInt(item.total_vinculos),
+                    sources: item.sources || []
+                }));
+
+                // Extract unique data sources
+                allData.forEach(item => {
+                    item.sources.forEach(source => dataSources.add(source));
+                });
+
+                // Update UI
+                updateFilters();
+                updateStats();
+                initializeTable();
+                initializeMap();
+
+                // Hide spinner and show content
+                spinner.style.display = 'none';
+                mainContent.style.display = 'block';
+
+                console.log(`Loaded ${allData.length} municipalities from ${dataSources.size} data sources`);
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+                spinner.style.display = 'none';
+                alert('Error loading data. Please check the console for details.');
+            }
+        }
+
+        // Update filter options
+        function updateFilters() {
+            // Data sources
+            const sourceSelect = document.getElementById('data-source-filter');
+            sourceSelect.innerHTML = '<option value="all" selected>All Sources</option>';
+            Array.from(dataSources).sort().forEach(source => {
+                const option = document.createElement('option');
+                option.value = source;
+                option.textContent = source.replace('./2023/', '').replace('.json', '');
+                sourceSelect.appendChild(option);
+            });
+
+            // States
+            const stateSelect = document.getElementById('state-filter');
+            const states = [...new Set(allData.map(item => item.state))].sort();
+            stateSelect.innerHTML = '<option value="all">All States</option>';
+            states.forEach(state => {
+                const option = document.createElement('option');
+                option.value = state;
+                option.textContent = state;
+                stateSelect.appendChild(option);
+            });
+        }
+
+        // Update statistics
+        function updateStats(data = null) {
+            const dataToUse = data || allData;
+            const totalMunicipios = dataToUse.length;
+            const totalEmployment = dataToUse.reduce((sum, item) => sum + item.employment, 0);
+            const avgEmployment = totalMunicipios > 0 ? Math.round(totalEmployment / totalMunicipios) : 0;
+
+            document.getElementById('total-municipios').textContent = totalMunicipios.toLocaleString();
+            document.getElementById('total-employment').textContent = totalEmployment.toLocaleString();
+            document.getElementById('avg-employment').textContent = avgEmployment.toLocaleString();
+            document.getElementById('data-sources').textContent = dataSources.size;
+
+            // Update summary table
+            updateSummaryTable(dataToUse);
+        }
+
+        // Update summary table
+        function updateSummaryTable(data) {
+            const totalCount = data.length;
+            const totalEmployment = data.reduce((sum, item) => sum + item.employment, 0);
+
+            // Find top municipality
+            const topMunicipio = data.reduce((max, item) =>
+                item.employment > max.employment ? item : max,
+                { employment: 0, municipio_nome: '-' }
+            );
+
+            // Calculate categories
+            const highCount = data.filter(item => item.employment > 5000).length;
+            const mediumCount = data.filter(item => item.employment >= 1000 && item.employment <= 5000).length;
+            const lowCount = data.filter(item => item.employment < 1000).length;
+
+            // Update table cells
+            document.getElementById('summary-total-count').textContent = totalCount.toLocaleString();
+            document.getElementById('summary-top-municipio').textContent = topMunicipio.municipio_nome;
+            document.getElementById('summary-max-employment').textContent = topMunicipio.employment.toLocaleString();
+
+            document.getElementById('summary-high-count').textContent = highCount.toLocaleString();
+            document.getElementById('summary-high-percent').textContent = totalCount > 0 ? ((highCount / totalCount) * 100).toFixed(1) + '%' : '0%';
+
+            document.getElementById('summary-medium-count').textContent = mediumCount.toLocaleString();
+            document.getElementById('summary-medium-percent').textContent = totalCount > 0 ? ((mediumCount / totalCount) * 100).toFixed(1) + '%' : '0%';
+
+            document.getElementById('summary-low-count').textContent = lowCount.toLocaleString();
+            document.getElementById('summary-low-percent').textContent = totalCount > 0 ? ((lowCount / totalCount) * 100).toFixed(1) + '%' : '0%';
+        }
+
+        // Initialize DataTable
+        function initializeTable() {
+            if (dataTable) {
+                dataTable.destroy();
+            }
+
+            dataTable = $('#data-table').DataTable({
+                data: allData,
+                columns: [
+                    { data: 'municipio' },
+                    { data: 'municipio_nome' },
+                    { data: 'state' },
+                    {
+                        data: 'employment',
+                        render: function(data) {
+                            return '<span class="badge bg-primary fs-6">' + data.toLocaleString() + '</span>';
+                        }
+                    },
+                    {
+                        data: 'latitude',
+                        render: function(data) {
+                            return data ? parseFloat(data).toFixed(4) : '-';
+                        }
+                    },
+                    {
+                        data: 'longitude',
+                        render: function(data) {
+                            return data ? parseFloat(data).toFixed(4) : '-';
+                        }
+                    },
+                    {
+                        data: 'sources',
+                        render: function(data) {
+                            return data.map(source => `<span class="badge bg-secondary data-source-badge">${source.replace('./2023/', '').replace('.json', '')}</span>`).join(' ');
+                        }
+                    }
+                ],
+                pageLength: 25,
+                order: [[3, 'desc']], // Sort by employment descending
+                responsive: true,
+                language: {
+                    search: '<i class="fas fa-search"></i> Search municipalities:',
+                    lengthMenu: '<i class="fas fa-list"></i> Show _MENU_ entries per page',
+                    info: '<i class="fas fa-info-circle"></i> Showing _START_ to _END_ of _TOTAL_ municipalities',
+                    paginate: {
+                        first: '<i class="fas fa-angle-double-left"></i>',
+                        last: '<i class="fas fa-angle-double-right"></i>',
+                        next: '<i class="fas fa-angle-right"></i>',
+                        previous: '<i class="fas fa-angle-left"></i>'
+                    }
+                },
+                initComplete: function() {
+                    // Add some styling to the search input
+                    $('.dataTables_filter input').addClass('form-control form-control-lg').css('border-radius', '25px');
+                    $('.dataTables_length select').addClass('form-select form-select-lg');
+                }
+            });
+        }
+
+        // Initialize Leaflet map
+        function initializeMap() {
+            if (map) {
+                map.remove();
+            }
+
+            map = L.map('map').setView([-15.0, -55.0], 4);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+
+            updateMapMarkers();
+        }
+
+        // Update map markers based on filtered data
+        function updateMapMarkers() {
+            // Clear existing markers
+            markers.forEach(marker => map.removeLayer(marker));
+            markers = [];
+
+            const dataToShow = filteredData.length > 0 ? filteredData : allData;
+
+            dataToShow.forEach(item => {
+                if (item.latitude && item.longitude) {
+                    const marker = L.circleMarker([item.latitude, item.longitude], {
+                        color: getColor(item.employment),
+                        fillColor: getColor(item.employment),
+                        fillOpacity: 0.7,
+                        radius: Math.max(3, Math.min(15, Math.log(item.employment) * 2))
+                    }).addTo(map);
+
+                    marker.bindPopup(`
+                        <div style="font-family: 'Segoe UI', sans-serif; max-width: 250px;">
+                            <h6 style="margin-bottom: 8px; color: #2c3e50;"><i class="fas fa-city"></i> ${item.municipio_nome}</h6>
+                            <div style="font-size: 0.9em;">
+                                <p style="margin: 4px 0;"><strong>State:</strong> ${item.state}</p>
+                                <p style="margin: 4px 0;"><strong>Employment Links:</strong> <span style="color: #007bff; font-weight: bold;">${item.employment.toLocaleString()}</span></p>
+                                <p style="margin: 4px 0;"><strong>Coordinates:</strong> ${item.latitude ? parseFloat(item.latitude).toFixed(4) : '-'}, ${item.longitude ? parseFloat(item.longitude).toFixed(4) : '-'}</p>
+                                <div style="margin-top: 8px;">
+                                    <strong>Data Sources:</strong><br>
+                                    ${item.sources.map(s => `<span class="badge bg-light text-dark" style="font-size: 0.75em; margin: 1px;">${s.replace('./2023/', '').replace('.json', '')}</span>`).join(' ')}
+                                </div>
+                            </div>
+                        </div>
+                    `);
+
+                    markers.push(marker);
+                }
+            });
+        }
+
+        // Apply filters
+        function applyFilters() {
+            const selectedSource = document.getElementById('data-source-filter').value;
+            const minEmployment = parseInt(document.getElementById('min-employment-filter').value) || 0;
+            const selectedState = document.getElementById('state-filter').value;
+
+            filteredData = allData.filter(item => {
+                // Employment filter
+                if (item.employment < minEmployment) return false;
+
+                // State filter
+                if (selectedState !== 'all' && item.state !== selectedState) return false;
+
+                // Data source filter
+                if (selectedSource !== 'all') {
+                    const hasMatchingSource = item.sources.some(source => source === selectedSource);
+                    if (!hasMatchingSource) return false;
+                }
+
+                return true;
+            });
+
+            // Show filter status if filters are active
+            const hasActiveFilters = minEmployment > 0 || selectedState !== 'all' || selectedSource !== 'all';
+            document.getElementById('filter-status').style.display = hasActiveFilters ? 'inline-block' : 'none';
+
+            // Update statistics with filtered data
+            updateStats(filteredData);
+
+            // Update table
+            if (dataTable) {
+                dataTable.clear();
+                dataTable.rows.add(filteredData);
+                dataTable.draw();
+            }
+
+            // Update map
+            updateMapMarkers();
+
+            console.log(`Filtered to ${filteredData.length} municipalities`);
+        }
+
+        // Reset filters
+        function resetFilters() {
+            document.getElementById('data-source-filter').value = 'all';
+            document.getElementById('min-employment-filter').value = '';
+            document.getElementById('state-filter').value = 'all';
+
+            // Hide filter status
+            document.getElementById('filter-status').style.display = 'none';
+
+            filteredData = [];
+            updateStats(); // Reset to show all data stats
+            applyFilters();
+        }
+
+        // Event listeners
+        document.getElementById('apply-filters').addEventListener('click', applyFilters);
+        document.getElementById('reset-filters').addEventListener('click', resetFilters);
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
