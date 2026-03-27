@@ -1,1195 +1,2785 @@
-[{
-  "municipio": "TOTAL",
-  "total_vinculos": "255330"
-}, {
-  "municipio": "4115606",
-  "total_vinculos": "8027"
-}, {
-  "municipio": "4122404",
-  "total_vinculos": "7102"
-}, {
-  "municipio": "4104808",
-  "total_vinculos": "6903"
-}, {
-  "municipio": "4117909",
-  "total_vinculos": "6606"
-}, {
-  "municipio": "4311403",
-  "total_vinculos": "5338"
-}, {
-  "municipio": "4103453",
-  "total_vinculos": "5306"
-}, {
-  "municipio": "4204202",
-  "total_vinculos": "5228"
-}, {
-  "municipio": "4115200",
-  "total_vinculos": "4316"
-}, {
-  "municipio": "4128005",
-  "total_vinculos": "4302"
-}, {
-  "municipio": "4203907",
-  "total_vinculos": "4232"
-}, {
-  "municipio": "5210406",
-  "total_vinculos": "4173"
-}, {
-  "municipio": "5217401",
-  "total_vinculos": "3975"
-}, {
-  "municipio": "4111902",
-  "total_vinculos": "3503"
-}, {
-  "municipio": "4105508",
-  "total_vinculos": "3444"
-}, {
-  "municipio": "4208401",
-  "total_vinculos": "3353"
-}, {
-  "municipio": "5300108",
-  "total_vinculos": "3088"
-}, {
-  "municipio": "4314100",
-  "total_vinculos": "3035"
-}, {
-  "municipio": "4219309",
-  "total_vinculos": "2993"
-}, {
-  "municipio": "4107207",
-  "total_vinculos": "2908"
-}, {
-  "municipio": "3105608",
-  "total_vinculos": "2884"
-}, {
-  "municipio": "4114203",
-  "total_vinculos": "2842"
-}, {
-  "municipio": "4206652",
-  "total_vinculos": "2833"
-}, {
-  "municipio": "3172004",
-  "total_vinculos": "2832"
-}, {
-  "municipio": "4112801",
-  "total_vinculos": "2775"
-}, {
-  "municipio": "5007901",
-  "total_vinculos": "2768"
-}, {
-  "municipio": "4114609",
-  "total_vinculos": "2759"
-}, {
-  "municipio": "4108403",
-  "total_vinculos": "2715"
-}, {
-  "municipio": "4219705",
-  "total_vinculos": "2653"
-}, {
-  "municipio": "4312401",
-  "total_vinculos": "2619"
-}, {
-  "municipio": "3164605",
-  "total_vinculos": "2600"
-}, {
-  "municipio": "3507001",
-  "total_vinculos": "2590"
-}, {
-  "municipio": "4308607",
-  "total_vinculos": "2582"
-}, {
-  "municipio": "3533601",
-  "total_vinculos": "2476"
-}, {
-  "municipio": "5106224",
-  "total_vinculos": "2421"
-}, {
-  "municipio": "4205456",
-  "total_vinculos": "2387"
-}, {
-  "municipio": "5004601",
-  "total_vinculos": "2341"
-}, {
-  "municipio": "3501905",
-  "total_vinculos": "2290"
-}, {
-  "municipio": "3556503",
-  "total_vinculos": "2207"
-}, {
-  "municipio": "2929305",
-  "total_vinculos": "2180"
-}, {
-  "municipio": "4208104",
-  "total_vinculos": "2164"
-}, {
-  "municipio": "4210506",
-  "total_vinculos": "2088"
-}, {
-  "municipio": "3170206",
-  "total_vinculos": "2084"
-}, {
-  "municipio": "4311809",
-  "total_vinculos": "2077"
-}, {
-  "municipio": "5213103",
-  "total_vinculos": "1959"
-}, {
-  "municipio": "4214201",
-  "total_vinculos": "1939"
-}, {
-  "municipio": "4211603",
-  "total_vinculos": "1932"
-}, {
-  "municipio": "4320909",
-  "total_vinculos": "1923"
-}, {
-  "municipio": "4124806",
-  "total_vinculos": "1903"
-}, {
-  "municipio": "2601706",
-  "total_vinculos": "1890"
-}, {
-  "municipio": "4104303",
-  "total_vinculos": "1821"
-}, {
-  "municipio": "4106902",
-  "total_vinculos": "1778"
-}, {
-  "municipio": "4124509",
-  "total_vinculos": "1732"
-}, {
-  "municipio": "4321956",
-  "total_vinculos": "1721"
-}, {
-  "municipio": "4128104",
-  "total_vinculos": "1705"
-}, {
-  "municipio": "3522307",
-  "total_vinculos": "1702"
-}, {
-  "municipio": "4118402",
-  "total_vinculos": "1666"
-}, {
-  "municipio": "3167202",
-  "total_vinculos": "1657"
-}, {
-  "municipio": "4207700",
-  "total_vinculos": "1648"
-}, {
-  "municipio": "4307005",
-  "total_vinculos": "1636"
-}, {
-  "municipio": "4113205",
-  "total_vinculos": "1622"
-}, {
-  "municipio": "4104659",
-  "total_vinculos": "1593"
-}, {
-  "municipio": "4320404",
-  "total_vinculos": "1566"
-}, {
-  "municipio": "4200101",
-  "total_vinculos": "1548"
-}, {
-  "municipio": "4118501",
-  "total_vinculos": "1536"
-}, {
-  "municipio": "3557105",
-  "total_vinculos": "1535"
-}, {
-  "municipio": "3522901",
-  "total_vinculos": "1511"
-}, {
-  "municipio": "5003702",
-  "total_vinculos": "1496"
-}, {
-  "municipio": "2506301",
-  "total_vinculos": "1481"
-}, {
-  "municipio": "4118006",
-  "total_vinculos": "1466"
-}, {
-  "municipio": "3517505",
-  "total_vinculos": "1442"
-}, {
-  "municipio": "4104501",
-  "total_vinculos": "1414"
-}, {
-  "municipio": "4216602",
-  "total_vinculos": "1365"
-}, {
-  "municipio": "5108857",
-  "total_vinculos": "1333"
-}, {
-  "municipio": "4111209",
-  "total_vinculos": "1270"
-}, {
-  "municipio": "5215009",
-  "total_vinculos": "1205"
-}, {
-  "municipio": "3304557",
-  "total_vinculos": "1201"
-}, {
-  "municipio": "5215702",
-  "total_vinculos": "1197"
-}, {
-  "municipio": "3201407",
-  "total_vinculos": "1197"
-}, {
-  "municipio": "4319505",
-  "total_vinculos": "1120"
-}, {
-  "municipio": "4305108",
-  "total_vinculos": "1088"
-}, {
-  "municipio": "3147105",
-  "total_vinculos": "1077"
-}, {
-  "municipio": "4105607",
-  "total_vinculos": "1058"
-}, {
-  "municipio": "4312302",
-  "total_vinculos": "1057"
-}, {
-  "municipio": "3554508",
-  "total_vinculos": "1046"
-}, {
-  "municipio": "4312807",
-  "total_vinculos": "1042"
-}, {
-  "municipio": "3147907",
-  "total_vinculos": "1040"
-}, {
-  "municipio": "3537503",
-  "total_vinculos": "1015"
-}, {
-  "municipio": "4217501",
-  "total_vinculos": "988"
-}, {
-  "municipio": "4315149",
-  "total_vinculos": "975"
-}, {
-  "municipio": "5001003",
-  "total_vinculos": "963"
-}, {
-  "municipio": "3106705",
-  "total_vinculos": "920"
-}, {
-  "municipio": "3508405",
-  "total_vinculos": "909"
-}, {
-  "municipio": "1100098",
-  "total_vinculos": "848"
-}, {
-  "municipio": "4111803",
-  "total_vinculos": "844"
-}, {
-  "municipio": "4207684",
-  "total_vinculos": "843"
-}, {
-  "municipio": "4122602",
-  "total_vinculos": "826"
-}, {
-  "municipio": "5107958",
-  "total_vinculos": "807"
-}, {
-  "municipio": "4110607",
-  "total_vinculos": "799"
-}, {
-  "municipio": "5203906",
-  "total_vinculos": "777"
-}, {
-  "municipio": "3519055",
-  "total_vinculos": "760"
-}, {
-  "municipio": "3522604",
-  "total_vinculos": "758"
-}, {
-  "municipio": "4320800",
-  "total_vinculos": "752"
-}, {
-  "municipio": "3532801",
-  "total_vinculos": "744"
-}, {
-  "municipio": "2919553",
-  "total_vinculos": "727"
-}, {
-  "municipio": "4127205",
-  "total_vinculos": "725"
-}, {
-  "municipio": "3129806",
-  "total_vinculos": "701"
-}, {
-  "municipio": "3170107",
-  "total_vinculos": "695"
-}, {
-  "municipio": "3203205",
-  "total_vinculos": "691"
-}, {
-  "municipio": "2301000",
-  "total_vinculos": "673"
-}, {
-  "municipio": "3305158",
-  "total_vinculos": "644"
-}, {
-  "municipio": "5213806",
-  "total_vinculos": "630"
-}, {
-  "municipio": "2910727",
-  "total_vinculos": "608"
-}, {
-  "municipio": "3539004",
-  "total_vinculos": "574"
-}, {
-  "municipio": "2303501",
-  "total_vinculos": "574"
-}, {
-  "municipio": "3203346",
-  "total_vinculos": "569"
-}, {
-  "municipio": "2908200",
-  "total_vinculos": "531"
-}, {
-  "municipio": "4211900",
-  "total_vinculos": "509"
-}, {
-  "municipio": "5002407",
-  "total_vinculos": "490"
-}, {
-  "municipio": "4301008",
-  "total_vinculos": "489"
-}, {
-  "municipio": "1501501",
-  "total_vinculos": "486"
-}, {
-  "municipio": "4206108",
-  "total_vinculos": "484"
-}, {
-  "municipio": "4323770",
-  "total_vinculos": "480"
-}, {
-  "municipio": "3549706",
-  "total_vinculos": "479"
-}, {
-  "municipio": "4312476",
-  "total_vinculos": "469"
-}, {
-  "municipio": "4123402",
-  "total_vinculos": "469"
-}, {
-  "municipio": "3542206",
-  "total_vinculos": "468"
-}, {
-  "municipio": "5211909",
-  "total_vinculos": "463"
-}, {
-  "municipio": "4101507",
-  "total_vinculos": "457"
-}, {
-  "municipio": "3157807",
-  "total_vinculos": "456"
-}, {
-  "municipio": "2928703",
-  "total_vinculos": "441"
-}, {
-  "municipio": "3152709",
-  "total_vinculos": "422"
-}, {
-  "municipio": "3548906",
-  "total_vinculos": "415"
-}, {
-  "municipio": "2610707",
-  "total_vinculos": "410"
-}, {
-  "municipio": "4207502",
-  "total_vinculos": "379"
-}, {
-  "municipio": "3164001",
-  "total_vinculos": "361"
-}, {
-  "municipio": "5107925",
-  "total_vinculos": "351"
-}, {
-  "municipio": "3521101",
-  "total_vinculos": "341"
-}, {
-  "municipio": "3139706",
-  "total_vinculos": "341"
-}, {
-  "municipio": "3527306",
-  "total_vinculos": "327"
-}, {
-  "municipio": "2903201",
-  "total_vinculos": "322"
-}, {
-  "municipio": "4308508",
-  "total_vinculos": "289"
-}, {
-  "municipio": "3530508",
-  "total_vinculos": "285"
-}, {
-  "municipio": "4322608",
-  "total_vinculos": "278"
-}, {
-  "municipio": "1200104",
-  "total_vinculos": "274"
-}, {
-  "municipio": "1506500",
-  "total_vinculos": "267"
-}, {
-  "municipio": "4307906",
-  "total_vinculos": "264"
-}, {
-  "municipio": "2933174",
-  "total_vinculos": "263"
-}, {
-  "municipio": "3130200",
-  "total_vinculos": "263"
-}, {
-  "municipio": "4110409",
-  "total_vinculos": "254"
-}, {
-  "municipio": "3543907",
-  "total_vinculos": "239"
-}, {
-  "municipio": "3505203",
-  "total_vinculos": "237"
-}, {
-  "municipio": "3530409",
-  "total_vinculos": "236"
-}, {
-  "municipio": "3131703",
-  "total_vinculos": "232"
-}, {
-  "municipio": "3303856",
-  "total_vinculos": "229"
-}, {
-  "municipio": "3525854",
-  "total_vinculos": "225"
-}, {
-  "municipio": "3106200",
-  "total_vinculos": "225"
-}, {
-  "municipio": "2211001",
-  "total_vinculos": "221"
-}, {
-  "municipio": "2707909",
-  "total_vinculos": "215"
-}, {
-  "municipio": "2910800",
-  "total_vinculos": "213"
-}, {
-  "municipio": "3205200",
-  "total_vinculos": "205"
-}, {
-  "municipio": "3518107",
-  "total_vinculos": "203"
-}, {
-  "municipio": "4204608",
-  "total_vinculos": "188"
-}, {
-  "municipio": "3516002",
-  "total_vinculos": "187"
-}, {
-  "municipio": "4211405",
-  "total_vinculos": "186"
-}, {
-  "municipio": "2610905",
-  "total_vinculos": "181"
-}, {
-  "municipio": "3534005",
-  "total_vinculos": "177"
-}, {
-  "municipio": "3158805",
-  "total_vinculos": "167"
-}, {
-  "municipio": "5203302",
-  "total_vinculos": "162"
-}, {
-  "municipio": "2931350",
-  "total_vinculos": "150"
-}, {
-  "municipio": "3525706",
-  "total_vinculos": "125"
-}, {
-  "municipio": "2607752",
-  "total_vinculos": "124"
-}, {
-  "municipio": "2933307",
-  "total_vinculos": "112"
-}, {
-  "municipio": "4204251",
-  "total_vinculos": "106"
-}, {
-  "municipio": "2806701",
-  "total_vinculos": "99"
-}, {
-  "municipio": "3110707",
-  "total_vinculos": "99"
-}, {
-  "municipio": "4308201",
-  "total_vinculos": "98"
-}, {
-  "municipio": "3201308",
-  "total_vinculos": "92"
-}, {
-  "municipio": "3204559",
-  "total_vinculos": "81"
-}, {
-  "municipio": "4201406",
-  "total_vinculos": "80"
-}, {
-  "municipio": "3547809",
-  "total_vinculos": "78"
-}, {
-  "municipio": "5217104",
-  "total_vinculos": "72"
-}, {
-  "municipio": "4204400",
-  "total_vinculos": "69"
-}, {
-  "municipio": "5209101",
-  "total_vinculos": "68"
-}, {
-  "municipio": "4321451",
-  "total_vinculos": "66"
-}, {
-  "municipio": "3204906",
-  "total_vinculos": "63"
-}, {
-  "municipio": "3539905",
-  "total_vinculos": "62"
-}, {
-  "municipio": "4120408",
-  "total_vinculos": "61"
-}, {
-  "municipio": "4101002",
-  "total_vinculos": "60"
-}, {
-  "municipio": "2613909",
-  "total_vinculos": "52"
-}, {
-  "municipio": "3104304",
-  "total_vinculos": "45"
-}, {
-  "municipio": "3201902",
-  "total_vinculos": "45"
-}, {
-  "municipio": "5104807",
-  "total_vinculos": "43"
-}, {
-  "municipio": "4316808",
-  "total_vinculos": "43"
-}, {
-  "municipio": "3304144",
-  "total_vinculos": "41"
-}, {
-  "municipio": "2105153",
-  "total_vinculos": "39"
-}, {
-  "municipio": "3511409",
-  "total_vinculos": "38"
-}, {
-  "municipio": "2606200",
-  "total_vinculos": "38"
-}, {
-  "municipio": "3550308",
-  "total_vinculos": "37"
-}, {
-  "municipio": "3171303",
-  "total_vinculos": "35"
-}, {
-  "municipio": "3127701",
-  "total_vinculos": "31"
-}, {
-  "municipio": "3163201",
-  "total_vinculos": "31"
-}, {
-  "municipio": "2205508",
-  "total_vinculos": "30"
-}, {
-  "municipio": "2611002",
-  "total_vinculos": "29"
-}, {
-  "municipio": "4202909",
-  "total_vinculos": "28"
-}, {
-  "municipio": "2803500",
-  "total_vinculos": "28"
-}, {
-  "municipio": "2111300",
-  "total_vinculos": "27"
-}, {
-  "municipio": "3102605",
-  "total_vinculos": "27"
-}, {
-  "municipio": "2103000",
-  "total_vinculos": "27"
-}, {
-  "municipio": "4211256",
-  "total_vinculos": "26"
-}, {
-  "municipio": "2408102",
-  "total_vinculos": "25"
-}, {
-  "municipio": "4201802",
-  "total_vinculos": "24"
-}, {
-  "municipio": "3143302",
-  "total_vinculos": "22"
-}, {
-  "municipio": "4111506",
-  "total_vinculos": "21"
-}, {
-  "municipio": "2607901",
-  "total_vinculos": "21"
-}, {
-  "municipio": "4215000",
-  "total_vinculos": "21"
-}, {
-  "municipio": "3548708",
-  "total_vinculos": "21"
-}, {
-  "municipio": "3102001",
-  "total_vinculos": "21"
-}, {
-  "municipio": "4314423",
-  "total_vinculos": "20"
-}, {
-  "municipio": "5208707",
-  "total_vinculos": "20"
-}, {
-  "municipio": "2203701",
-  "total_vinculos": "19"
-}, {
-  "municipio": "5214507",
-  "total_vinculos": "19"
-}, {
-  "municipio": "2700300",
-  "total_vinculos": "19"
-}, {
-  "municipio": "2704302",
-  "total_vinculos": "19"
-}, {
-  "municipio": "2926608",
-  "total_vinculos": "18"
-}, {
-  "municipio": "3122306",
-  "total_vinculos": "18"
-}, {
-  "municipio": "2507507",
-  "total_vinculos": "18"
-}, {
-  "municipio": "3107406",
-  "total_vinculos": "17"
-}, {
-  "municipio": "4208906",
-  "total_vinculos": "16"
-}, {
-  "municipio": "3205101",
-  "total_vinculos": "16"
-}, {
-  "municipio": "3509403",
-  "total_vinculos": "16"
-}, {
-  "municipio": "3526407",
-  "total_vinculos": "16"
-}, {
-  "municipio": "2207702",
-  "total_vinculos": "16"
-}, {
-  "municipio": "3504008",
-  "total_vinculos": "16"
-}, {
-  "municipio": "4317905",
-  "total_vinculos": "16"
-}, {
-  "municipio": "2307304",
-  "total_vinculos": "16"
-}, {
-  "municipio": "4203303",
-  "total_vinculos": "15"
-}, {
-  "municipio": "2908903",
-  "total_vinculos": "14"
-}, {
-  "municipio": "2304400",
-  "total_vinculos": "14"
-}, {
-  "municipio": "2601102",
-  "total_vinculos": "14"
-}, {
-  "municipio": "2614501",
-  "total_vinculos": "14"
-}, {
-  "municipio": "3147402",
-  "total_vinculos": "14"
-}, {
-  "municipio": "2932903",
-  "total_vinculos": "12"
-}, {
-  "municipio": "4316907",
-  "total_vinculos": "12"
-}, {
-  "municipio": "2408003",
-  "total_vinculos": "12"
-}, {
-  "municipio": "3137205",
-  "total_vinculos": "11"
-}, {
-  "municipio": "3133501",
-  "total_vinculos": "11"
-}, {
-  "municipio": "3148004",
-  "total_vinculos": "11"
-}, {
-  "municipio": "2112209",
-  "total_vinculos": "10"
-}, {
-  "municipio": "5202809",
-  "total_vinculos": "10"
-}, {
-  "municipio": "2515302",
-  "total_vinculos": "9"
-}, {
-  "municipio": "4217758",
-  "total_vinculos": "9"
-}, {
-  "municipio": "3300225",
-  "total_vinculos": "9"
-}, {
-  "municipio": "2615300",
-  "total_vinculos": "9"
-}, {
-  "municipio": "2508901",
-  "total_vinculos": "9"
-}, {
-  "municipio": "2911709",
-  "total_vinculos": "9"
-}, {
-  "municipio": "3505807",
-  "total_vinculos": "8"
-}, {
-  "municipio": "1302603",
-  "total_vinculos": "8"
-}, {
-  "municipio": "3138807",
-  "total_vinculos": "8"
-}, {
-  "municipio": "2309706",
-  "total_vinculos": "8"
-}, {
-  "municipio": "3115102",
-  "total_vinculos": "8"
-}, {
-  "municipio": "2303709",
-  "total_vinculos": "8"
-}, {
-  "municipio": "3556206",
-  "total_vinculos": "8"
-}, {
-  "municipio": "2800308",
-  "total_vinculos": "8"
-}, {
-  "municipio": "2925501",
-  "total_vinculos": "8"
-}, {
-  "municipio": "5002704",
-  "total_vinculos": "7"
-}, {
-  "municipio": "3139003",
-  "total_vinculos": "7"
-}, {
-  "municipio": "5201405",
-  "total_vinculos": "7"
-}, {
-  "municipio": "3110004",
-  "total_vinculos": "7"
-}, {
-  "municipio": "2311801",
-  "total_vinculos": "7"
-}, {
-  "municipio": "3154903",
-  "total_vinculos": "7"
-}, {
-  "municipio": "3145059",
-  "total_vinculos": "6"
-}, {
-  "municipio": "2608800",
-  "total_vinculos": "6"
-}, {
-  "municipio": "3151404",
-  "total_vinculos": "6"
-}, {
-  "municipio": "3113305",
-  "total_vinculos": "6"
-}, {
-  "municipio": "2312908",
-  "total_vinculos": "6"
-}, {
-  "municipio": "2907301",
-  "total_vinculos": "6"
-}, {
-  "municipio": "2807105",
-  "total_vinculos": "6"
-}, {
-  "municipio": "2402006",
-  "total_vinculos": "6"
-}, {
-  "municipio": "2403103",
-  "total_vinculos": "6"
-}, {
-  "municipio": "3171105",
-  "total_vinculos": "6"
-}, {
-  "municipio": "4315701",
-  "total_vinculos": "5"
-}, {
-  "municipio": "4312906",
-  "total_vinculos": "5"
-}, {
-  "municipio": "2504009",
-  "total_vinculos": "5"
-}, {
-  "municipio": "3523206",
-  "total_vinculos": "5"
-}, {
-  "municipio": "5200050",
-  "total_vinculos": "5"
-}, {
-  "municipio": "2411205",
-  "total_vinculos": "5"
-}, {
-  "municipio": "2309607",
-  "total_vinculos": "5"
-}, {
-  "municipio": "3503208",
-  "total_vinculos": "4"
-}, {
-  "municipio": "2307601",
-  "total_vinculos": "4"
-}, {
-  "municipio": "4207304",
-  "total_vinculos": "4"
-}, {
-  "municipio": "2705101",
-  "total_vinculos": "4"
-}, {
-  "municipio": "1506203",
-  "total_vinculos": "4"
-}, {
-  "municipio": "2804607",
-  "total_vinculos": "4"
-}, {
-  "municipio": "2507705",
-  "total_vinculos": "4"
-}, {
-  "municipio": "5101308",
-  "total_vinculos": "4"
-}, {
-  "municipio": "2704708",
-  "total_vinculos": "4"
-}, {
-  "municipio": "2306306",
-  "total_vinculos": "4"
-}, {
-  "municipio": "2302206",
-  "total_vinculos": "4"
-}, {
-  "municipio": "3547304",
-  "total_vinculos": "4"
-}, {
-  "municipio": "3148103",
-  "total_vinculos": "4"
-}, {
-  "municipio": "3303500",
-  "total_vinculos": "4"
-}, {
-  "municipio": "2931509",
-  "total_vinculos": "4"
-}, {
-  "municipio": "3138401",
-  "total_vinculos": "4"
-}, {
-  "municipio": "3507308",
-  "total_vinculos": "4"
-}, {
-  "municipio": "3123908",
-  "total_vinculos": "4"
-}, {
-  "municipio": "3169901",
-  "total_vinculos": "4"
-}, {
-  "municipio": "2913705",
-  "total_vinculos": "3"
-}, {
-  "municipio": "3149705",
-  "total_vinculos": "3"
-}, {
-  "municipio": "3549805",
-  "total_vinculos": "3"
-}, {
-  "municipio": "2503704",
-  "total_vinculos": "3"
-}, {
-  "municipio": "1505502",
-  "total_vinculos": "3"
-}, {
-  "municipio": "1504422",
-  "total_vinculos": "3"
-}, {
-  "municipio": "2510808",
-  "total_vinculos": "3"
-}, {
-  "municipio": "2305506",
-  "total_vinculos": "3"
-}, {
-  "municipio": "2905206",
-  "total_vinculos": "3"
-}, {
-  "municipio": "2915601",
-  "total_vinculos": "3"
-}, {
-  "municipio": "3133808",
-  "total_vinculos": "3"
-}, {
-  "municipio": "2807402",
-  "total_vinculos": "3"
-}, {
-  "municipio": "2700706",
-  "total_vinculos": "3"
-}, {
-  "municipio": "2708006",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3302700",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2606903",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2112308",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3152808",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2702900",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3537800",
-  "total_vinculos": "2"
-}, {
-  "municipio": "5205109",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2905602",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3156106",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2302404",
-  "total_vinculos": "2"
-}, {
-  "municipio": "4304671",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3147204",
-  "total_vinculos": "2"
-}, {
-  "municipio": "5105622",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2926202",
-  "total_vinculos": "2"
-}, {
-  "municipio": "4318903",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2605905",
-  "total_vinculos": "2"
-}, {
-  "municipio": "4124400",
-  "total_vinculos": "2"
-}, {
-  "municipio": "5212501",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2609402",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2312304",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2406106",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2111508",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3503406",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3103900",
-  "total_vinculos": "2"
-}, {
-  "municipio": "1500800",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3536703",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3137403",
-  "total_vinculos": "2"
-}, {
-  "municipio": "4312450",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3302502",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3169307",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2307254",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2311306",
-  "total_vinculos": "2"
-}, {
-  "municipio": "4206504",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3300456",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3304904",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2702306",
-  "total_vinculos": "2"
-}, {
-  "municipio": "4217709",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2406502",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2506004",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2302800",
-  "total_vinculos": "2"
-}, {
-  "municipio": "4126504",
-  "total_vinculos": "2"
-}, {
-  "municipio": "4312252",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3104502",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2611101",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2207900",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2504801",
-  "total_vinculos": "1"
-}, {
-  "municipio": "3511508",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2907509",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2501104",
-  "total_vinculos": "1"
-}, {
-  "municipio": "4108601",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2503308",
-  "total_vinculos": "1"
-}, {
-  "municipio": "3518800",
-  "total_vinculos": "1"
-}, {
-  "municipio": "4314407",
-  "total_vinculos": "1"
-}, {
-  "municipio": "3103504",
-  "total_vinculos": "1"
-}, {
-  "municipio": "1100205",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2616308",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2703205",
-  "total_vinculos": "1"
-}, {
-  "municipio": "5212600",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2900702",
-  "total_vinculos": "1"
-}, {
-  "municipio": "3303203",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2313609",
-  "total_vinculos": "1"
-}, {
-  "municipio": "3552205",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2705200",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2604106",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2927408",
-  "total_vinculos": "1"
-}, {
-  "municipio": "4315305",
-  "total_vinculos": "1"
-}, {
-  "municipio": "5205455",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2512101",
-  "total_vinculos": "1"
-}, {
-  "municipio": "3143203",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2708600",
-  "total_vinculos": "1"
-}, {
-  "municipio": "3203502",
-  "total_vinculos": "1"
-}, {
-  "municipio": "3301009",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2505105",
-  "total_vinculos": "1"
-}, {
-  "municipio": "4106308",
-  "total_vinculos": "1"
-}, {
-  "municipio": "2608909",
-  "total_vinculos": "1"
-}, {
-  "municipio": "3516200",
-  "total_vinculos": "1"
-}, {
-  "municipio": "3117306",
-  "total_vinculos": "1"
-}]
+[
+  {
+    "municipio": "TOTAL",
+    "total_vinculos": "255330"
+  },
+  {
+    "municipio": "4115606",
+    "total_vinculos": "8027",
+    "municipio_nome": "Matelândia",
+    "latitude": -25.2496,
+    "longitude": -53.9935
+  },
+  {
+    "municipio": "4122404",
+    "total_vinculos": "7102",
+    "municipio_nome": "Rolândia",
+    "latitude": -23.3101,
+    "longitude": -51.3659
+  },
+  {
+    "municipio": "4104808",
+    "total_vinculos": "6903",
+    "municipio_nome": "Cascavel",
+    "latitude": -24.9573,
+    "longitude": -53.459
+  },
+  {
+    "municipio": "4117909",
+    "total_vinculos": "6606",
+    "municipio_nome": "Palotina",
+    "latitude": -24.2868,
+    "longitude": -53.8404
+  },
+  {
+    "municipio": "4311403",
+    "total_vinculos": "5338",
+    "municipio_nome": "Lajeado",
+    "latitude": -29.4591,
+    "longitude": -51.9644
+  },
+  {
+    "municipio": "4103453",
+    "total_vinculos": "5306",
+    "municipio_nome": "Cafelândia",
+    "latitude": -24.6189,
+    "longitude": -53.3207
+  },
+  {
+    "municipio": "4204202",
+    "total_vinculos": "5228",
+    "municipio_nome": "Chapecó",
+    "latitude": -27.1004,
+    "longitude": -52.6152
+  },
+  {
+    "municipio": "4115200",
+    "total_vinculos": "4316",
+    "municipio_nome": "Maringá",
+    "latitude": -23.4205,
+    "longitude": -51.9333
+  },
+  {
+    "municipio": "4128005",
+    "total_vinculos": "4302",
+    "municipio_nome": "Ubiratã",
+    "latitude": -24.5393,
+    "longitude": -52.9865
+  },
+  {
+    "municipio": "4203907",
+    "total_vinculos": "4232",
+    "municipio_nome": "Capinzal",
+    "latitude": -27.3473,
+    "longitude": -51.6057
+  },
+  {
+    "municipio": "5210406",
+    "total_vinculos": "4173",
+    "municipio_nome": "Itaberaí",
+    "latitude": -16.0206,
+    "longitude": -49.806
+  },
+  {
+    "municipio": "5217401",
+    "total_vinculos": "3975",
+    "municipio_nome": "Pires do Rio",
+    "latitude": -17.3019,
+    "longitude": -48.2768
+  },
+  {
+    "municipio": "4111902",
+    "total_vinculos": "3503",
+    "municipio_nome": "Jaguapitã",
+    "latitude": -23.1104,
+    "longitude": -51.5342
+  },
+  {
+    "municipio": "4105508",
+    "total_vinculos": "3444",
+    "municipio_nome": "Cianorte",
+    "latitude": -23.6599,
+    "longitude": -52.6054
+  },
+  {
+    "municipio": "4208401",
+    "total_vinculos": "3353",
+    "municipio_nome": "Itapiranga",
+    "latitude": -27.1659,
+    "longitude": -53.7166
+  },
+  {
+    "municipio": "5300108",
+    "total_vinculos": "3088",
+    "municipio_nome": "Brasília",
+    "latitude": -15.7795,
+    "longitude": -47.9297
+  },
+  {
+    "municipio": "4314100",
+    "total_vinculos": "3035",
+    "municipio_nome": "Passo Fundo",
+    "latitude": -28.2576,
+    "longitude": -52.4091
+  },
+  {
+    "municipio": "4219309",
+    "total_vinculos": "2993",
+    "municipio_nome": "Videira",
+    "latitude": -27.0086,
+    "longitude": -51.1543
+  },
+  {
+    "municipio": "4107207",
+    "total_vinculos": "2908",
+    "municipio_nome": "Dois Vizinhos",
+    "latitude": -25.7407,
+    "longitude": -53.057
+  },
+  {
+    "municipio": "3105608",
+    "total_vinculos": "2884",
+    "municipio_nome": "Barbacena",
+    "latitude": -21.2214,
+    "longitude": -43.7703
+  },
+  {
+    "municipio": "4114203",
+    "total_vinculos": "2842",
+    "municipio_nome": "Mandaguari",
+    "latitude": -23.5446,
+    "longitude": -51.671
+  },
+  {
+    "municipio": "4206652",
+    "total_vinculos": "2833",
+    "municipio_nome": "Guatambú",
+    "latitude": -27.1341,
+    "longitude": -52.7887
+  },
+  {
+    "municipio": "3172004",
+    "total_vinculos": "2832",
+    "municipio_nome": "Visconde do Rio Branco",
+    "latitude": -21.0127,
+    "longitude": -42.8361
+  },
+  {
+    "municipio": "4112801",
+    "total_vinculos": "2775",
+    "municipio_nome": "Joaquim Távora",
+    "latitude": -23.4987,
+    "longitude": -49.909
+  },
+  {
+    "municipio": "5007901",
+    "total_vinculos": "2768",
+    "municipio_nome": "Sidrolândia",
+    "latitude": -20.9302,
+    "longitude": -54.9692
+  },
+  {
+    "municipio": "4114609",
+    "total_vinculos": "2759",
+    "municipio_nome": "Marechal Cândido Rondon",
+    "latitude": -24.557,
+    "longitude": -54.0571
+  },
+  {
+    "municipio": "4108403",
+    "total_vinculos": "2715",
+    "municipio_nome": "Francisco Beltrão",
+    "latitude": -26.0817,
+    "longitude": -53.0535
+  },
+  {
+    "municipio": "4219705",
+    "total_vinculos": "2653",
+    "municipio_nome": "Xaxim",
+    "latitude": -26.9596,
+    "longitude": -52.5374
+  },
+  {
+    "municipio": "4312401",
+    "total_vinculos": "2619",
+    "municipio_nome": "Montenegro",
+    "latitude": -29.6824,
+    "longitude": -51.4679
+  },
+  {
+    "municipio": "3164605",
+    "total_vinculos": "2600",
+    "municipio_nome": "São Sebastião do Oeste",
+    "latitude": -20.2758,
+    "longitude": -45.0063
+  },
+  {
+    "municipio": "3507001",
+    "total_vinculos": "2590",
+    "municipio_nome": "Boituva",
+    "latitude": -23.2855,
+    "longitude": -47.6786
+  },
+  {
+    "municipio": "4308607",
+    "total_vinculos": "2582",
+    "municipio_nome": "Garibaldi",
+    "latitude": -29.259,
+    "longitude": -51.5352
+  },
+  {
+    "municipio": "3533601",
+    "total_vinculos": "2476",
+    "municipio_nome": "Nuporanga",
+    "latitude": -20.7296,
+    "longitude": -47.7429
+  },
+  {
+    "municipio": "5106224",
+    "total_vinculos": "2421",
+    "municipio_nome": "Nova Mutum",
+    "latitude": -13.8374,
+    "longitude": -56.0743
+  },
+  {
+    "municipio": "4205456",
+    "total_vinculos": "2387",
+    "municipio_nome": "Forquilhinha",
+    "latitude": -28.7454,
+    "longitude": -49.4785
+  },
+  {
+    "municipio": "5004601",
+    "total_vinculos": "2341",
+    "municipio_nome": "Itaquiraí",
+    "latitude": -23.4779,
+    "longitude": -54.187
+  },
+  {
+    "municipio": "3501905",
+    "total_vinculos": "2290",
+    "municipio_nome": "Amparo",
+    "latitude": -22.7088,
+    "longitude": -46.772
+  },
+  {
+    "municipio": "3556503",
+    "total_vinculos": "2207",
+    "municipio_nome": "Várzea Paulista",
+    "latitude": -23.2136,
+    "longitude": -46.8234
+  },
+  {
+    "municipio": "2929305",
+    "total_vinculos": "2180",
+    "municipio_nome": "São Gonçalo dos Campos",
+    "latitude": -12.4331,
+    "longitude": -38.9663
+  },
+  {
+    "municipio": "4208104",
+    "total_vinculos": "2164",
+    "municipio_nome": "Itaiópolis",
+    "latitude": -26.339,
+    "longitude": -49.9092
+  },
+  {
+    "municipio": "4210506",
+    "total_vinculos": "2088",
+    "municipio_nome": "Maravilha",
+    "latitude": -26.7665,
+    "longitude": -53.1737
+  },
+  {
+    "municipio": "3170206",
+    "total_vinculos": "2084",
+    "municipio_nome": "Uberlândia",
+    "latitude": -18.9141,
+    "longitude": -48.2749
+  },
+  {
+    "municipio": "4311809",
+    "total_vinculos": "2077",
+    "municipio_nome": "Marau",
+    "latitude": -28.4498,
+    "longitude": -52.1986
+  },
+  {
+    "municipio": "5213103",
+    "total_vinculos": "1959",
+    "municipio_nome": "Mineiros",
+    "latitude": -17.5654,
+    "longitude": -52.5537
+  },
+  {
+    "municipio": "4214201",
+    "total_vinculos": "1939",
+    "municipio_nome": "Quilombo",
+    "latitude": -26.7264,
+    "longitude": -52.724
+  },
+  {
+    "municipio": "4211603",
+    "total_vinculos": "1932",
+    "municipio_nome": "Nova Veneza",
+    "latitude": -28.6338,
+    "longitude": -49.5055
+  },
+  {
+    "municipio": "4320909",
+    "total_vinculos": "1923",
+    "municipio_nome": "Tapejara",
+    "latitude": -28.0652,
+    "longitude": -52.0097
+  },
+  {
+    "municipio": "4124806",
+    "total_vinculos": "1903",
+    "municipio_nome": "São João",
+    "latitude": -25.8214,
+    "longitude": -52.7252
+  },
+  {
+    "municipio": "2601706",
+    "total_vinculos": "1890",
+    "municipio_nome": "Belo Jardim",
+    "latitude": -8.3313,
+    "longitude": -36.4258
+  },
+  {
+    "municipio": "4104303",
+    "total_vinculos": "1821",
+    "municipio_nome": "Campo Mourão",
+    "latitude": -24.0463,
+    "longitude": -52.378
+  },
+  {
+    "municipio": "4106902",
+    "total_vinculos": "1778",
+    "municipio_nome": "Curitiba",
+    "latitude": -25.4195,
+    "longitude": -49.2646
+  },
+  {
+    "municipio": "4124509",
+    "total_vinculos": "1732",
+    "municipio_nome": "Santo Inácio",
+    "latitude": -22.6957,
+    "longitude": -51.7969
+  },
+  {
+    "municipio": "4321956",
+    "total_vinculos": "1721",
+    "municipio_nome": "Trindade do Sul",
+    "latitude": -27.5239,
+    "longitude": -52.8956
+  },
+  {
+    "municipio": "4128104",
+    "total_vinculos": "1705",
+    "municipio_nome": "Umuarama",
+    "latitude": -23.7656,
+    "longitude": -53.3201
+  },
+  {
+    "municipio": "3522307",
+    "total_vinculos": "1702",
+    "municipio_nome": "Itapetininga",
+    "latitude": -23.5886,
+    "longitude": -48.0483
+  },
+  {
+    "municipio": "4118402",
+    "total_vinculos": "1666",
+    "municipio_nome": "Paranavaí",
+    "latitude": -23.0816,
+    "longitude": -52.4617
+  },
+  {
+    "municipio": "3167202",
+    "total_vinculos": "1657",
+    "municipio_nome": "Sete Lagoas",
+    "latitude": -19.4569,
+    "longitude": -44.2413
+  },
+  {
+    "municipio": "4207700",
+    "total_vinculos": "1648",
+    "municipio_nome": "Ipumirim",
+    "latitude": -27.0772,
+    "longitude": -52.1289
+  },
+  {
+    "municipio": "4307005",
+    "total_vinculos": "1636",
+    "municipio_nome": "Erechim",
+    "latitude": -27.6364,
+    "longitude": -52.2697
+  },
+  {
+    "municipio": "4113205",
+    "total_vinculos": "1622",
+    "municipio_nome": "Lapa",
+    "latitude": -25.7671,
+    "longitude": -49.7168
+  },
+  {
+    "municipio": "4104659",
+    "total_vinculos": "1593",
+    "municipio_nome": "Carambeí",
+    "latitude": -24.9152,
+    "longitude": -50.0986
+  },
+  {
+    "municipio": "4320404",
+    "total_vinculos": "1566",
+    "municipio_nome": "Serafina Corrêa",
+    "latitude": -28.7126,
+    "longitude": -51.9352
+  },
+  {
+    "municipio": "4200101",
+    "total_vinculos": "1548",
+    "municipio_nome": "Abelardo Luz",
+    "latitude": -26.5716,
+    "longitude": -52.3229
+  },
+  {
+    "municipio": "4118501",
+    "total_vinculos": "1536",
+    "municipio_nome": "Pato Branco",
+    "latitude": -26.2292,
+    "longitude": -52.6706
+  },
+  {
+    "municipio": "3557105",
+    "total_vinculos": "1535",
+    "municipio_nome": "Votuporanga",
+    "latitude": -20.4237,
+    "longitude": -49.9781
+  },
+  {
+    "municipio": "3522901",
+    "total_vinculos": "1511",
+    "municipio_nome": "Itapuí",
+    "latitude": -22.2324,
+    "longitude": -48.7197
+  },
+  {
+    "municipio": "5003702",
+    "total_vinculos": "1496",
+    "municipio_nome": "Dourados",
+    "latitude": -22.2231,
+    "longitude": -54.812
+  },
+  {
+    "municipio": "2506301",
+    "total_vinculos": "1481",
+    "municipio_nome": "Guarabira",
+    "latitude": -6.85064,
+    "longitude": -35.485
+  },
+  {
+    "municipio": "4118006",
+    "total_vinculos": "1466",
+    "municipio_nome": "Paraíso do Norte",
+    "latitude": -23.2824,
+    "longitude": -52.6054
+  },
+  {
+    "municipio": "3517505",
+    "total_vinculos": "1442",
+    "municipio_nome": "Guapiaçu",
+    "latitude": -20.7959,
+    "longitude": -49.2172
+  },
+  {
+    "municipio": "4104501",
+    "total_vinculos": "1414",
+    "municipio_nome": "Capanema",
+    "latitude": -25.6691,
+    "longitude": -53.8055
+  },
+  {
+    "municipio": "4216602",
+    "total_vinculos": "1365",
+    "municipio_nome": "São José",
+    "latitude": -27.6136,
+    "longitude": -48.6366
+  },
+  {
+    "municipio": "5108857",
+    "total_vinculos": "1333",
+    "municipio_nome": "Nova Marilândia",
+    "latitude": -14.3568,
+    "longitude": -56.9696
+  },
+  {
+    "municipio": "4111209",
+    "total_vinculos": "1270",
+    "municipio_nome": "Itapejara d'Oeste",
+    "latitude": -25.9619,
+    "longitude": -52.8152
+  },
+  {
+    "municipio": "5215009",
+    "total_vinculos": "1205",
+    "municipio_nome": "Nova Veneza",
+    "latitude": -16.3695,
+    "longitude": -49.3168
+  },
+  {
+    "municipio": "3304557",
+    "total_vinculos": "1201",
+    "municipio_nome": "Rio de Janeiro",
+    "latitude": -22.9129,
+    "longitude": -43.2003
+  },
+  {
+    "municipio": "5215702",
+    "total_vinculos": "1197",
+    "municipio_nome": "Palmeiras de Goiás",
+    "latitude": -16.8044,
+    "longitude": -49.924
+  },
+  {
+    "municipio": "3201407",
+    "total_vinculos": "1197",
+    "municipio_nome": "Castelo",
+    "latitude": -20.6033,
+    "longitude": -41.2031
+  },
+  {
+    "municipio": "4319505",
+    "total_vinculos": "1120",
+    "municipio_nome": "São Sebastião do Caí",
+    "latitude": -29.5885,
+    "longitude": -51.3749
+  },
+  {
+    "municipio": "4305108",
+    "total_vinculos": "1088",
+    "municipio_nome": "Caxias do Sul",
+    "latitude": -29.1629,
+    "longitude": -51.1792
+  },
+  {
+    "municipio": "3147105",
+    "total_vinculos": "1077",
+    "municipio_nome": "Pará de Minas",
+    "latitude": -19.8534,
+    "longitude": -44.6114
+  },
+  {
+    "municipio": "4105607",
+    "total_vinculos": "1058",
+    "municipio_nome": "Cidade Gaúcha",
+    "latitude": -23.3772,
+    "longitude": -52.9436
+  },
+  {
+    "municipio": "4312302",
+    "total_vinculos": "1057",
+    "municipio_nome": "Miraguaí",
+    "latitude": -27.497,
+    "longitude": -53.6891
+  },
+  {
+    "municipio": "3554508",
+    "total_vinculos": "1046",
+    "municipio_nome": "Tietê",
+    "latitude": -23.1101,
+    "longitude": -47.7164
+  },
+  {
+    "municipio": "4312807",
+    "total_vinculos": "1042",
+    "municipio_nome": "Nova Araçá",
+    "latitude": -28.6537,
+    "longitude": -51.7458
+  },
+  {
+    "municipio": "3147907",
+    "total_vinculos": "1040",
+    "municipio_nome": "Passos",
+    "latitude": -20.7193,
+    "longitude": -46.609
+  },
+  {
+    "municipio": "3537503",
+    "total_vinculos": "1015",
+    "municipio_nome": "Pereiras",
+    "latitude": -23.0804,
+    "longitude": -47.972
+  },
+  {
+    "municipio": "4217501",
+    "total_vinculos": "988",
+    "municipio_nome": "Seara",
+    "latitude": -27.1564,
+    "longitude": -52.299
+  },
+  {
+    "municipio": "4315149",
+    "total_vinculos": "975",
+    "municipio_nome": "Presidente Lucena",
+    "latitude": -29.5175,
+    "longitude": -51.1798
+  },
+  {
+    "municipio": "5001003",
+    "total_vinculos": "963",
+    "municipio_nome": "Aparecida do Taboado",
+    "latitude": -20.0873,
+    "longitude": -51.0961
+  },
+  {
+    "municipio": "3106705",
+    "total_vinculos": "920",
+    "municipio_nome": "Betim",
+    "latitude": -19.9668,
+    "longitude": -44.2008
+  },
+  {
+    "municipio": "3508405",
+    "total_vinculos": "909",
+    "municipio_nome": "Cabreúva",
+    "latitude": -23.3053,
+    "longitude": -47.1362
+  },
+  {
+    "municipio": "1100098",
+    "total_vinculos": "848",
+    "municipio_nome": "Espigão D'Oeste",
+    "latitude": -11.5266,
+    "longitude": -61.0252
+  },
+  {
+    "municipio": "4111803",
+    "total_vinculos": "844",
+    "municipio_nome": "Jacarezinho",
+    "latitude": -23.1591,
+    "longitude": -49.9739
+  },
+  {
+    "municipio": "4207684",
+    "total_vinculos": "843",
+    "municipio_nome": "Ipuaçu",
+    "latitude": -26.635,
+    "longitude": -52.4556
+  },
+  {
+    "municipio": "4122602",
+    "total_vinculos": "826",
+    "municipio_nome": "Rondon",
+    "latitude": -23.412,
+    "longitude": -52.7659
+  },
+  {
+    "municipio": "5107958",
+    "total_vinculos": "807",
+    "municipio_nome": "Tangará da Serra",
+    "latitude": -14.6229,
+    "longitude": -57.4933
+  },
+  {
+    "municipio": "4110607",
+    "total_vinculos": "799",
+    "municipio_nome": "Iporã",
+    "latitude": -24.0083,
+    "longitude": -53.706
+  },
+  {
+    "municipio": "5203906",
+    "total_vinculos": "777",
+    "municipio_nome": "Buriti Alegre",
+    "latitude": -18.1378,
+    "longitude": -49.0404
+  },
+  {
+    "municipio": "3519055",
+    "total_vinculos": "760",
+    "municipio_nome": "Holambra",
+    "latitude": -22.6405,
+    "longitude": -47.0487
+  },
+  {
+    "municipio": "3522604",
+    "total_vinculos": "758",
+    "municipio_nome": "Itapira",
+    "latitude": -22.4357,
+    "longitude": -46.8224
+  },
+  {
+    "municipio": "4320800",
+    "total_vinculos": "752",
+    "municipio_nome": "Soledade",
+    "latitude": -28.8306,
+    "longitude": -52.5131
+  },
+  {
+    "municipio": "3532801",
+    "total_vinculos": "744",
+    "municipio_nome": "Nova Aliança",
+    "latitude": -21.0156,
+    "longitude": -49.4986
+  },
+  {
+    "municipio": "2919553",
+    "total_vinculos": "727",
+    "municipio_nome": "Luís Eduardo Magalhães",
+    "latitude": -12.0956,
+    "longitude": -45.7866
+  },
+  {
+    "municipio": "4127205",
+    "total_vinculos": "725",
+    "municipio_nome": "Terra Boa",
+    "latitude": -23.7683,
+    "longitude": -52.447
+  },
+  {
+    "municipio": "3129806",
+    "total_vinculos": "701",
+    "municipio_nome": "Ibirité",
+    "latitude": -20.0252,
+    "longitude": -44.0569
+  },
+  {
+    "municipio": "3170107",
+    "total_vinculos": "695",
+    "municipio_nome": "Uberaba",
+    "latitude": -19.7472,
+    "longitude": -47.9381
+  },
+  {
+    "municipio": "3203205",
+    "total_vinculos": "691",
+    "municipio_nome": "Linhares",
+    "latitude": -19.3946,
+    "longitude": -40.0643
+  },
+  {
+    "municipio": "2301000",
+    "total_vinculos": "673",
+    "municipio_nome": "Aquiraz",
+    "latitude": -3.89929,
+    "longitude": -38.3896
+  },
+  {
+    "municipio": "3305158",
+    "total_vinculos": "644",
+    "municipio_nome": "São José do Vale do Rio Preto",
+    "latitude": -22.1525,
+    "longitude": -42.9327
+  },
+  {
+    "municipio": "5213806",
+    "total_vinculos": "630",
+    "municipio_nome": "Morrinhos",
+    "latitude": -17.7334,
+    "longitude": -49.1059
+  },
+  {
+    "municipio": "2910727",
+    "total_vinculos": "608",
+    "municipio_nome": "Eunápolis",
+    "latitude": -16.3715,
+    "longitude": -39.5821
+  },
+  {
+    "municipio": "3539004",
+    "total_vinculos": "574",
+    "municipio_nome": "Pirangi",
+    "latitude": -21.0886,
+    "longitude": -48.6607
+  },
+  {
+    "municipio": "2303501",
+    "total_vinculos": "574",
+    "municipio_nome": "Cascavel",
+    "latitude": -4.12967,
+    "longitude": -38.2412
+  },
+  {
+    "municipio": "3203346",
+    "total_vinculos": "569",
+    "municipio_nome": "Marechal Floriano",
+    "latitude": -20.4159,
+    "longitude": -40.67
+  },
+  {
+    "municipio": "2908200",
+    "total_vinculos": "531",
+    "municipio_nome": "Conceição da Feira",
+    "latitude": -12.5078,
+    "longitude": -38.9978
+  },
+  {
+    "municipio": "4211900",
+    "total_vinculos": "509",
+    "municipio_nome": "Palhoça",
+    "latitude": -27.6455,
+    "longitude": -48.6697
+  },
+  {
+    "municipio": "5002407",
+    "total_vinculos": "490",
+    "municipio_nome": "Caarapó",
+    "latitude": -22.6368,
+    "longitude": -54.8209
+  },
+  {
+    "municipio": "4301008",
+    "total_vinculos": "489",
+    "municipio_nome": "Arroio do Meio",
+    "latitude": -29.4014,
+    "longitude": -51.9557
+  },
+  {
+    "municipio": "1501501",
+    "total_vinculos": "486",
+    "municipio_nome": "Benevides",
+    "latitude": -1.36183,
+    "longitude": -48.2434
+  },
+  {
+    "municipio": "4206108",
+    "total_vinculos": "484",
+    "municipio_nome": "Grão Pará",
+    "latitude": -28.1809,
+    "longitude": -49.2252
+  },
+  {
+    "municipio": "4323770",
+    "total_vinculos": "480",
+    "municipio_nome": "Westfália",
+    "latitude": -29.4263,
+    "longitude": -51.7645
+  },
+  {
+    "municipio": "3549706",
+    "total_vinculos": "479",
+    "municipio_nome": "São José do Rio Pardo",
+    "latitude": -21.5953,
+    "longitude": -46.8873
+  },
+  {
+    "municipio": "4312476",
+    "total_vinculos": "469",
+    "municipio_nome": "Morro Reuter",
+    "latitude": -29.5379,
+    "longitude": -51.0811
+  },
+  {
+    "municipio": "4123402",
+    "total_vinculos": "469",
+    "municipio_nome": "Santa Fé",
+    "latitude": -23.04,
+    "longitude": -51.808
+  },
+  {
+    "municipio": "3542206",
+    "total_vinculos": "468",
+    "municipio_nome": "Rancharia",
+    "latitude": -22.2269,
+    "longitude": -50.893
+  },
+  {
+    "municipio": "5211909",
+    "total_vinculos": "463",
+    "municipio_nome": "Jataí",
+    "latitude": -17.8784,
+    "longitude": -51.7204
+  },
+  {
+    "municipio": "4101507",
+    "total_vinculos": "457",
+    "municipio_nome": "Arapongas",
+    "latitude": -23.4153,
+    "longitude": -51.4259
+  },
+  {
+    "municipio": "3157807",
+    "total_vinculos": "456",
+    "municipio_nome": "Santa Luzia",
+    "latitude": -19.7548,
+    "longitude": -43.8497
+  },
+  {
+    "municipio": "2928703",
+    "total_vinculos": "441",
+    "municipio_nome": "Santo Antônio de Jesus",
+    "latitude": -12.9614,
+    "longitude": -39.2584
+  },
+  {
+    "municipio": "3152709",
+    "total_vinculos": "422",
+    "municipio_nome": "Prados",
+    "latitude": -21.0597,
+    "longitude": -44.0778
+  },
+  {
+    "municipio": "3548906",
+    "total_vinculos": "415",
+    "municipio_nome": "São Carlos",
+    "latitude": -22.0174,
+    "longitude": -47.886
+  },
+  {
+    "municipio": "2610707",
+    "total_vinculos": "410",
+    "municipio_nome": "Paulista",
+    "latitude": -7.93401,
+    "longitude": -34.8684
+  },
+  {
+    "municipio": "4207502",
+    "total_vinculos": "379",
+    "municipio_nome": "Indaial",
+    "latitude": -26.8992,
+    "longitude": -49.2354
+  },
+  {
+    "municipio": "3164001",
+    "total_vinculos": "361",
+    "municipio_nome": "São Pedro dos Ferros",
+    "latitude": -20.1732,
+    "longitude": -42.5251
+  },
+  {
+    "municipio": "5107925",
+    "total_vinculos": "351",
+    "municipio_nome": "Sorriso",
+    "latitude": -12.5425,
+    "longitude": -55.7211
+  },
+  {
+    "municipio": "3521101",
+    "total_vinculos": "341",
+    "municipio_nome": "Ipeúna",
+    "latitude": -22.4355,
+    "longitude": -47.7151
+  },
+  {
+    "municipio": "3139706",
+    "total_vinculos": "341",
+    "municipio_nome": "Maravilhas",
+    "latitude": -19.5076,
+    "longitude": -44.6779
+  },
+  {
+    "municipio": "3527306",
+    "total_vinculos": "327",
+    "municipio_nome": "Louveira",
+    "latitude": -23.0856,
+    "longitude": -46.9484
+  },
+  {
+    "municipio": "2903201",
+    "total_vinculos": "322",
+    "municipio_nome": "Barreiras",
+    "latitude": -12.1439,
+    "longitude": -44.9968
+  },
+  {
+    "municipio": "4308508",
+    "total_vinculos": "289",
+    "municipio_nome": "Frederico Westphalen",
+    "latitude": -27.3586,
+    "longitude": -53.3958
+  },
+  {
+    "municipio": "3530508",
+    "total_vinculos": "285",
+    "municipio_nome": "Mococa",
+    "latitude": -21.4647,
+    "longitude": -47.0024
+  },
+  {
+    "municipio": "4322608",
+    "total_vinculos": "278",
+    "municipio_nome": "Venâncio Aires",
+    "latitude": -29.6143,
+    "longitude": -52.1932
+  },
+  {
+    "municipio": "1200104",
+    "total_vinculos": "274",
+    "municipio_nome": "Brasiléia",
+    "latitude": -10.995,
+    "longitude": -68.7497
+  },
+  {
+    "municipio": "1506500",
+    "total_vinculos": "267",
+    "municipio_nome": "Santa Izabel do Pará",
+    "latitude": -1.29686,
+    "longitude": -48.1606
+  },
+  {
+    "municipio": "4307906",
+    "total_vinculos": "264",
+    "municipio_nome": "Farroupilha",
+    "latitude": -29.2227,
+    "longitude": -51.3419
+  },
+  {
+    "municipio": "2933174",
+    "total_vinculos": "263",
+    "municipio_nome": "Varzedo",
+    "latitude": -12.9672,
+    "longitude": -39.3919
+  },
+  {
+    "municipio": "3130200",
+    "total_vinculos": "263",
+    "municipio_nome": "Igaratinga",
+    "latitude": -19.9476,
+    "longitude": -44.7063
+  },
+  {
+    "municipio": "4110409",
+    "total_vinculos": "254",
+    "municipio_nome": "Indianópolis",
+    "latitude": -23.4762,
+    "longitude": -52.6989
+  },
+  {
+    "municipio": "3543907",
+    "total_vinculos": "239",
+    "municipio_nome": "Rio Claro",
+    "latitude": -22.3984,
+    "longitude": -47.5546
+  },
+  {
+    "municipio": "3505203",
+    "total_vinculos": "237",
+    "municipio_nome": "Bariri",
+    "latitude": -22.073,
+    "longitude": -48.7438
+  },
+  {
+    "municipio": "3530409",
+    "total_vinculos": "236",
+    "municipio_nome": "Mirassolândia",
+    "latitude": -20.6179,
+    "longitude": -49.4617
+  },
+  {
+    "municipio": "3131703",
+    "total_vinculos": "232",
+    "municipio_nome": "Itabira",
+    "latitude": -19.6239,
+    "longitude": -43.2312
+  },
+  {
+    "municipio": "3303856",
+    "total_vinculos": "229",
+    "municipio_nome": "Paty do Alferes",
+    "latitude": -22.4309,
+    "longitude": -43.4285
+  },
+  {
+    "municipio": "3525854",
+    "total_vinculos": "225",
+    "municipio_nome": "Jumirim",
+    "latitude": -23.0884,
+    "longitude": -47.7868
+  },
+  {
+    "municipio": "3106200",
+    "total_vinculos": "225",
+    "municipio_nome": "Belo Horizonte",
+    "latitude": -19.9102,
+    "longitude": -43.9266
+  },
+  {
+    "municipio": "2211001",
+    "total_vinculos": "221",
+    "municipio_nome": "Teresina",
+    "latitude": -5.09194,
+    "longitude": -42.8034
+  },
+  {
+    "municipio": "2707909",
+    "total_vinculos": "215",
+    "municipio_nome": "Santa Luzia do Norte",
+    "latitude": -9.6037,
+    "longitude": -35.8232
+  },
+  {
+    "municipio": "2910800",
+    "total_vinculos": "213",
+    "municipio_nome": "Feira de Santana",
+    "latitude": -12.2664,
+    "longitude": -38.9663
+  },
+  {
+    "municipio": "3205200",
+    "total_vinculos": "205",
+    "municipio_nome": "Vila Velha",
+    "latitude": -20.3417,
+    "longitude": -40.2875
+  },
+  {
+    "municipio": "3518107",
+    "total_vinculos": "203",
+    "municipio_nome": "Guarantã",
+    "latitude": -21.8942,
+    "longitude": -49.5914
+  },
+  {
+    "municipio": "4204608",
+    "total_vinculos": "188",
+    "municipio_nome": "Criciúma",
+    "latitude": -28.6723,
+    "longitude": -49.3729
+  },
+  {
+    "municipio": "3516002",
+    "total_vinculos": "187",
+    "municipio_nome": "Flórida Paulista",
+    "latitude": -21.6127,
+    "longitude": -51.1724
+  },
+  {
+    "municipio": "4211405",
+    "total_vinculos": "186",
+    "municipio_nome": "Nova Erechim",
+    "latitude": -26.8982,
+    "longitude": -52.9066
+  },
+  {
+    "municipio": "2610905",
+    "total_vinculos": "181",
+    "municipio_nome": "Pesqueira",
+    "latitude": -8.35797,
+    "longitude": -36.6978
+  },
+  {
+    "municipio": "3534005",
+    "total_vinculos": "177",
+    "municipio_nome": "Onda Verde",
+    "latitude": -20.6042,
+    "longitude": -49.2929
+  },
+  {
+    "municipio": "3158805",
+    "total_vinculos": "167",
+    "municipio_nome": "Santana do Jacaré",
+    "latitude": -20.9007,
+    "longitude": -45.1285
+  },
+  {
+    "municipio": "5203302",
+    "total_vinculos": "162",
+    "municipio_nome": "Bela Vista de Goiás",
+    "latitude": -16.9693,
+    "longitude": -48.9513
+  },
+  {
+    "municipio": "2931350",
+    "total_vinculos": "150",
+    "municipio_nome": "Teixeira de Freitas",
+    "latitude": -17.5399,
+    "longitude": -39.74
+  },
+  {
+    "municipio": "3525706",
+    "total_vinculos": "125",
+    "municipio_nome": "José Bonifácio",
+    "latitude": -21.0551,
+    "longitude": -49.6892
+  },
+  {
+    "municipio": "2607752",
+    "total_vinculos": "124",
+    "municipio_nome": "Itapissuma",
+    "latitude": -7.76798,
+    "longitude": -34.8971
+  },
+  {
+    "municipio": "2933307",
+    "total_vinculos": "112",
+    "municipio_nome": "Vitória da Conquista",
+    "latitude": -14.8615,
+    "longitude": -40.8442
+  },
+  {
+    "municipio": "4204251",
+    "total_vinculos": "106",
+    "municipio_nome": "Cocal do Sul",
+    "latitude": -28.5986,
+    "longitude": -49.3335
+  },
+  {
+    "municipio": "2806701",
+    "total_vinculos": "99",
+    "municipio_nome": "São Cristóvão",
+    "latitude": -11.0084,
+    "longitude": -37.2044
+  },
+  {
+    "municipio": "3110707",
+    "total_vinculos": "99",
+    "municipio_nome": "Cambuquira",
+    "latitude": -21.854,
+    "longitude": -45.2896
+  },
+  {
+    "municipio": "4308201",
+    "total_vinculos": "98",
+    "municipio_nome": "Flores da Cunha",
+    "latitude": -29.0261,
+    "longitude": -51.1875
+  },
+  {
+    "municipio": "3201308",
+    "total_vinculos": "92",
+    "municipio_nome": "Cariacica",
+    "latitude": -20.2632,
+    "longitude": -40.4165
+  },
+  {
+    "municipio": "3204559",
+    "total_vinculos": "81",
+    "municipio_nome": "Santa Maria de Jetibá",
+    "latitude": -20.0253,
+    "longitude": -40.7439
+  },
+  {
+    "municipio": "4201406",
+    "total_vinculos": "80",
+    "municipio_nome": "Araranguá",
+    "latitude": -28.9356,
+    "longitude": -49.4918
+  },
+  {
+    "municipio": "3547809",
+    "total_vinculos": "78",
+    "municipio_nome": "Santo André",
+    "latitude": -23.6737,
+    "longitude": -46.5432
+  },
+  {
+    "municipio": "5217104",
+    "total_vinculos": "72",
+    "municipio_nome": "Piracanjuba",
+    "latitude": -17.302,
+    "longitude": -49.017
+  },
+  {
+    "municipio": "4204400",
+    "total_vinculos": "69",
+    "municipio_nome": "Coronel Freitas",
+    "latitude": -26.9057,
+    "longitude": -52.7011
+  },
+  {
+    "municipio": "5209101",
+    "total_vinculos": "68",
+    "municipio_nome": "Goiatuba",
+    "latitude": -18.0105,
+    "longitude": -49.3658
+  },
+  {
+    "municipio": "4321451",
+    "total_vinculos": "66",
+    "municipio_nome": "Teutônia",
+    "latitude": -29.4482,
+    "longitude": -51.8044
+  },
+  {
+    "municipio": "3204906",
+    "total_vinculos": "63",
+    "municipio_nome": "São Mateus",
+    "latitude": -18.7214,
+    "longitude": -39.8579
+  },
+  {
+    "municipio": "3539905",
+    "total_vinculos": "62",
+    "municipio_nome": "Poloni",
+    "latitude": -20.7829,
+    "longitude": -49.8258
+  },
+  {
+    "municipio": "4120408",
+    "total_vinculos": "61",
+    "municipio_nome": "Presidente Castelo Branco",
+    "latitude": -23.2782,
+    "longitude": -52.1536
+  },
+  {
+    "municipio": "4101002",
+    "total_vinculos": "60",
+    "municipio_nome": "Ampére",
+    "latitude": -25.9168,
+    "longitude": -53.4686
+  },
+  {
+    "municipio": "2613909",
+    "total_vinculos": "52",
+    "municipio_nome": "Serra Talhada",
+    "latitude": -7.98178,
+    "longitude": -38.289
+  },
+  {
+    "municipio": "3104304",
+    "total_vinculos": "45",
+    "municipio_nome": "Areado",
+    "latitude": -21.3572,
+    "longitude": -46.1421
+  },
+  {
+    "municipio": "3201902",
+    "total_vinculos": "45",
+    "municipio_nome": "Domingos Martins",
+    "latitude": -20.3603,
+    "longitude": -40.6594
+  },
+  {
+    "municipio": "5104807",
+    "total_vinculos": "43",
+    "municipio_nome": "Jaciara",
+    "latitude": -15.9548,
+    "longitude": -54.9733
+  },
+  {
+    "municipio": "4316808",
+    "total_vinculos": "43",
+    "municipio_nome": "Santa Cruz do Sul",
+    "latitude": -29.722,
+    "longitude": -52.4343
+  },
+  {
+    "municipio": "3304144",
+    "total_vinculos": "41",
+    "municipio_nome": "Queimados",
+    "latitude": -22.7102,
+    "longitude": -43.5518
+  },
+  {
+    "municipio": "2105153",
+    "total_vinculos": "39",
+    "municipio_nome": "Igarapé do Meio",
+    "latitude": -3.65771,
+    "longitude": -45.2114
+  },
+  {
+    "municipio": "3511409",
+    "total_vinculos": "38",
+    "municipio_nome": "Cerqueira César",
+    "latitude": -23.038,
+    "longitude": -49.1655
+  },
+  {
+    "municipio": "2606200",
+    "total_vinculos": "38",
+    "municipio_nome": "Goiana",
+    "latitude": -7.5606,
+    "longitude": -34.9959
+  },
+  {
+    "municipio": "3550308",
+    "total_vinculos": "37",
+    "municipio_nome": "São Paulo",
+    "latitude": -23.5329,
+    "longitude": -46.6395
+  },
+  {
+    "municipio": "3171303",
+    "total_vinculos": "35",
+    "municipio_nome": "Viçosa",
+    "latitude": -20.7559,
+    "longitude": -42.8742
+  },
+  {
+    "municipio": "3127701",
+    "total_vinculos": "31",
+    "municipio_nome": "Governador Valadares",
+    "latitude": -18.8545,
+    "longitude": -41.9555
+  },
+  {
+    "municipio": "3163201",
+    "total_vinculos": "31",
+    "municipio_nome": "São José do Alegre",
+    "latitude": -22.3243,
+    "longitude": -45.5258
+  },
+  {
+    "municipio": "2205508",
+    "total_vinculos": "30",
+    "municipio_nome": "José de Freitas",
+    "latitude": -4.75146,
+    "longitude": -42.5746
+  },
+  {
+    "municipio": "2611002",
+    "total_vinculos": "29",
+    "municipio_nome": "Petrolândia",
+    "latitude": -9.06863,
+    "longitude": -38.3027
+  },
+  {
+    "municipio": "4202909",
+    "total_vinculos": "28",
+    "municipio_nome": "Brusque",
+    "latitude": -27.0977,
+    "longitude": -48.9107
+  },
+  {
+    "municipio": "2803500",
+    "total_vinculos": "28",
+    "municipio_nome": "Lagarto",
+    "latitude": -10.9136,
+    "longitude": -37.6689
+  },
+  {
+    "municipio": "2111300",
+    "total_vinculos": "27",
+    "municipio_nome": "São Luís",
+    "latitude": -2.53874,
+    "longitude": -44.2825
+  },
+  {
+    "municipio": "3102605",
+    "total_vinculos": "27",
+    "municipio_nome": "Andradas",
+    "latitude": -22.0695,
+    "longitude": -46.5724
+  },
+  {
+    "municipio": "2103000",
+    "total_vinculos": "27",
+    "municipio_nome": "Caxias",
+    "latitude": -4.86505,
+    "longitude": -43.3617
+  },
+  {
+    "municipio": "4211256",
+    "total_vinculos": "26",
+    "municipio_nome": "Morro Grande",
+    "latitude": -28.8006,
+    "longitude": -49.7214
+  },
+  {
+    "municipio": "2408102",
+    "total_vinculos": "25",
+    "municipio_nome": "Natal",
+    "latitude": -5.79357,
+    "longitude": -35.1986
+  },
+  {
+    "municipio": "4201802",
+    "total_vinculos": "24",
+    "municipio_nome": "Atalanta",
+    "latitude": -27.4219,
+    "longitude": -49.7789
+  },
+  {
+    "municipio": "3143302",
+    "total_vinculos": "22",
+    "municipio_nome": "Montes Claros",
+    "latitude": -16.7282,
+    "longitude": -43.8578
+  },
+  {
+    "municipio": "4111506",
+    "total_vinculos": "21",
+    "municipio_nome": "Ivaiporã",
+    "latitude": -24.2485,
+    "longitude": -51.6754
+  },
+  {
+    "municipio": "2607901",
+    "total_vinculos": "21",
+    "municipio_nome": "Jaboatão dos Guararapes",
+    "latitude": -8.11298,
+    "longitude": -35.015
+  },
+  {
+    "municipio": "4215000",
+    "total_vinculos": "21",
+    "municipio_nome": "Rio Negrinho",
+    "latitude": -26.2591,
+    "longitude": -49.5177
+  },
+  {
+    "municipio": "3548708",
+    "total_vinculos": "21",
+    "municipio_nome": "São Bernardo do Campo",
+    "latitude": -23.6914,
+    "longitude": -46.5646
+  },
+  {
+    "municipio": "3102001",
+    "total_vinculos": "21",
+    "municipio_nome": "Alterosa",
+    "latitude": -21.2488,
+    "longitude": -46.1387
+  },
+  {
+    "municipio": "4314423",
+    "total_vinculos": "20",
+    "municipio_nome": "Picada Café",
+    "latitude": -29.4464,
+    "longitude": -51.1367
+  },
+  {
+    "municipio": "5208707",
+    "total_vinculos": "20",
+    "municipio_nome": "Goiânia",
+    "latitude": -16.6864,
+    "longitude": -49.2643
+  },
+  {
+    "municipio": "2203701",
+    "total_vinculos": "19",
+    "municipio_nome": "Esperantina",
+    "latitude": -3.88863,
+    "longitude": -42.2324
+  },
+  {
+    "municipio": "5214507",
+    "total_vinculos": "19",
+    "municipio_nome": "Nerópolis",
+    "latitude": -16.4047,
+    "longitude": -49.2227
+  },
+  {
+    "municipio": "2700300",
+    "total_vinculos": "19",
+    "municipio_nome": "Arapiraca",
+    "latitude": -9.75487,
+    "longitude": -36.6615
+  },
+  {
+    "municipio": "2704302",
+    "total_vinculos": "19",
+    "municipio_nome": "Maceió",
+    "latitude": -9.66599,
+    "longitude": -35.735
+  },
+  {
+    "municipio": "2926608",
+    "total_vinculos": "18",
+    "municipio_nome": "Ribeira do Pombal",
+    "latitude": -10.8373,
+    "longitude": -38.5382
+  },
+  {
+    "municipio": "3122306",
+    "total_vinculos": "18",
+    "municipio_nome": "Divinópolis",
+    "latitude": -20.1446,
+    "longitude": -44.8912
+  },
+  {
+    "municipio": "2507507",
+    "total_vinculos": "18",
+    "municipio_nome": "João Pessoa",
+    "latitude": -7.11509,
+    "longitude": -34.8641
+  },
+  {
+    "municipio": "3107406",
+    "total_vinculos": "17",
+    "municipio_nome": "Bom Despacho",
+    "latitude": -19.7386,
+    "longitude": -45.2622
+  },
+  {
+    "municipio": "4208906",
+    "total_vinculos": "16",
+    "municipio_nome": "Jaraguá do Sul",
+    "latitude": -26.4851,
+    "longitude": -49.0713
+  },
+  {
+    "municipio": "3205101",
+    "total_vinculos": "16",
+    "municipio_nome": "Viana",
+    "latitude": -20.3825,
+    "longitude": -40.4933
+  },
+  {
+    "municipio": "3509403",
+    "total_vinculos": "16",
+    "municipio_nome": "Cajuru",
+    "latitude": -21.2749,
+    "longitude": -47.303
+  },
+  {
+    "municipio": "3526407",
+    "total_vinculos": "16",
+    "municipio_nome": "Laranjal Paulista",
+    "latitude": -23.0506,
+    "longitude": -47.8375
+  },
+  {
+    "municipio": "2207702",
+    "total_vinculos": "16",
+    "municipio_nome": "Parnaíba",
+    "latitude": -2.90585,
+    "longitude": -41.7754
+  },
+  {
+    "municipio": "3504008",
+    "total_vinculos": "16",
+    "municipio_nome": "Assis",
+    "latitude": -22.66,
+    "longitude": -50.4183
+  },
+  {
+    "municipio": "4317905",
+    "total_vinculos": "16",
+    "municipio_nome": "Santo Cristo",
+    "latitude": -27.8263,
+    "longitude": -54.662
+  },
+  {
+    "municipio": "2307304",
+    "total_vinculos": "16",
+    "municipio_nome": "Juazeiro do Norte",
+    "latitude": -7.19621,
+    "longitude": -39.3076
+  },
+  {
+    "municipio": "4203303",
+    "total_vinculos": "15",
+    "municipio_nome": "Campo Alegre",
+    "latitude": -26.195,
+    "longitude": -49.2676
+  },
+  {
+    "municipio": "2908903",
+    "total_vinculos": "14",
+    "municipio_nome": "Coração de Maria",
+    "latitude": -12.2333,
+    "longitude": -38.7487
+  },
+  {
+    "municipio": "2304400",
+    "total_vinculos": "14",
+    "municipio_nome": "Fortaleza",
+    "latitude": -3.71664,
+    "longitude": -38.5423
+  },
+  {
+    "municipio": "2601102",
+    "total_vinculos": "14",
+    "municipio_nome": "Araripina",
+    "latitude": -7.57073,
+    "longitude": -40.494
+  },
+  {
+    "municipio": "2614501",
+    "total_vinculos": "14",
+    "municipio_nome": "Surubim",
+    "latitude": -7.84746,
+    "longitude": -35.7481
+  },
+  {
+    "municipio": "3147402",
+    "total_vinculos": "14",
+    "municipio_nome": "Paraopeba",
+    "latitude": -19.2732,
+    "longitude": -44.4044
+  },
+  {
+    "municipio": "2932903",
+    "total_vinculos": "12",
+    "municipio_nome": "Valença",
+    "latitude": -13.3669,
+    "longitude": -39.073
+  },
+  {
+    "municipio": "4316907",
+    "total_vinculos": "12",
+    "municipio_nome": "Santa Maria",
+    "latitude": -29.6868,
+    "longitude": -53.8149
+  },
+  {
+    "municipio": "2408003",
+    "total_vinculos": "12",
+    "municipio_nome": "Mossoró",
+    "latitude": -5.18374,
+    "longitude": -37.3474
+  },
+  {
+    "municipio": "3137205",
+    "total_vinculos": "11",
+    "municipio_nome": "Lagoa da Prata",
+    "latitude": -20.0237,
+    "longitude": -45.5401
+  },
+  {
+    "municipio": "3133501",
+    "total_vinculos": "11",
+    "municipio_nome": "Itapecerica",
+    "latitude": -20.4704,
+    "longitude": -45.127
+  },
+  {
+    "municipio": "3148004",
+    "total_vinculos": "11",
+    "municipio_nome": "Patos de Minas",
+    "latitude": -18.5699,
+    "longitude": -46.5013
+  },
+  {
+    "municipio": "2112209",
+    "total_vinculos": "10",
+    "municipio_nome": "Timon",
+    "latitude": -5.09769,
+    "longitude": -42.8329
+  },
+  {
+    "municipio": "5202809",
+    "total_vinculos": "10",
+    "municipio_nome": "Avelinópolis",
+    "latitude": -16.4672,
+    "longitude": -49.7579
+  },
+  {
+    "municipio": "2515302",
+    "total_vinculos": "9",
+    "municipio_nome": "Sapé",
+    "latitude": -7.09359,
+    "longitude": -35.228
+  },
+  {
+    "municipio": "4217758",
+    "total_vinculos": "9",
+    "municipio_nome": "Sul Brasil",
+    "latitude": -26.7351,
+    "longitude": -52.964
+  },
+  {
+    "municipio": "3300225",
+    "total_vinculos": "9",
+    "municipio_nome": "Areal",
+    "latitude": -22.2283,
+    "longitude": -43.1118
+  },
+  {
+    "municipio": "2615300",
+    "total_vinculos": "9",
+    "municipio_nome": "Timbaúba",
+    "latitude": -7.50484,
+    "longitude": -35.3119
+  },
+  {
+    "municipio": "2508901",
+    "total_vinculos": "9",
+    "municipio_nome": "Mamanguape",
+    "latitude": -6.8337,
+    "longitude": -35.1213
+  },
+  {
+    "municipio": "2911709",
+    "total_vinculos": "9",
+    "municipio_nome": "Guanambi",
+    "latitude": -14.2231,
+    "longitude": -42.7799
+  },
+  {
+    "municipio": "3505807",
+    "total_vinculos": "8",
+    "municipio_nome": "Bastos",
+    "latitude": -21.921,
+    "longitude": -50.7357
+  },
+  {
+    "municipio": "1302603",
+    "total_vinculos": "8",
+    "municipio_nome": "Manaus",
+    "latitude": -3.11866,
+    "longitude": -60.0212
+  },
+  {
+    "municipio": "3138807",
+    "total_vinculos": "8",
+    "municipio_nome": "Luz",
+    "latitude": -19.7911,
+    "longitude": -45.6794
+  },
+  {
+    "municipio": "2309706",
+    "total_vinculos": "8",
+    "municipio_nome": "Pacatuba",
+    "latitude": -3.9784,
+    "longitude": -38.6183
+  },
+  {
+    "municipio": "3115102",
+    "total_vinculos": "8",
+    "municipio_nome": "Cássia",
+    "latitude": -20.5831,
+    "longitude": -46.9201
+  },
+  {
+    "municipio": "2303709",
+    "total_vinculos": "8",
+    "municipio_nome": "Caucaia",
+    "latitude": -3.72797,
+    "longitude": -38.6619
+  },
+  {
+    "municipio": "3556206",
+    "total_vinculos": "8",
+    "municipio_nome": "Valinhos",
+    "latitude": -22.9698,
+    "longitude": -46.9974
+  },
+  {
+    "municipio": "2800308",
+    "total_vinculos": "8",
+    "municipio_nome": "Aracaju",
+    "latitude": -10.9091,
+    "longitude": -37.0677
+  },
+  {
+    "municipio": "2925501",
+    "total_vinculos": "8",
+    "municipio_nome": "Prado",
+    "latitude": -17.3364,
+    "longitude": -39.2227
+  },
+  {
+    "municipio": "5002704",
+    "total_vinculos": "7",
+    "municipio_nome": "Campo Grande",
+    "latitude": -20.4486,
+    "longitude": -54.6295
+  },
+  {
+    "municipio": "3139003",
+    "total_vinculos": "7",
+    "municipio_nome": "Machado",
+    "latitude": -21.6778,
+    "longitude": -45.9219
+  },
+  {
+    "municipio": "5201405",
+    "total_vinculos": "7",
+    "municipio_nome": "Aparecida de Goiânia",
+    "latitude": -16.8198,
+    "longitude": -49.2469
+  },
+  {
+    "municipio": "3110004",
+    "total_vinculos": "7",
+    "municipio_nome": "Caeté",
+    "latitude": -19.8826,
+    "longitude": -43.6704
+  },
+  {
+    "municipio": "2311801",
+    "total_vinculos": "7",
+    "municipio_nome": "Russas",
+    "latitude": -4.92673,
+    "longitude": -37.9721
+  },
+  {
+    "municipio": "3154903",
+    "total_vinculos": "7",
+    "municipio_nome": "Rio Casca",
+    "latitude": -20.2285,
+    "longitude": -42.6462
+  },
+  {
+    "municipio": "3145059",
+    "total_vinculos": "6",
+    "municipio_nome": "Nova Porteirinha",
+    "latitude": -15.7993,
+    "longitude": -43.2941
+  },
+  {
+    "municipio": "2608800",
+    "total_vinculos": "6",
+    "municipio_nome": "Lajedo",
+    "latitude": -8.65791,
+    "longitude": -36.3293
+  },
+  {
+    "municipio": "3151404",
+    "total_vinculos": "6",
+    "municipio_nome": "Pitangui",
+    "latitude": -19.6741,
+    "longitude": -44.8964
+  },
+  {
+    "municipio": "3113305",
+    "total_vinculos": "6",
+    "municipio_nome": "Carangola",
+    "latitude": -20.7343,
+    "longitude": -42.0313
+  },
+  {
+    "municipio": "2312908",
+    "total_vinculos": "6",
+    "municipio_nome": "Sobral",
+    "latitude": -3.68913,
+    "longitude": -40.3482
+  },
+  {
+    "municipio": "2907301",
+    "total_vinculos": "6",
+    "municipio_nome": "Castro Alves",
+    "latitude": -12.7579,
+    "longitude": -39.4248
+  },
+  {
+    "municipio": "2807105",
+    "total_vinculos": "6",
+    "municipio_nome": "Simão Dias",
+    "latitude": -10.7387,
+    "longitude": -37.8097
+  },
+  {
+    "municipio": "2402006",
+    "total_vinculos": "6",
+    "municipio_nome": "Caicó",
+    "latitude": -6.45441,
+    "longitude": -37.1067
+  },
+  {
+    "municipio": "2403103",
+    "total_vinculos": "6",
+    "municipio_nome": "Currais Novos",
+    "latitude": -6.25484,
+    "longitude": -36.5146
+  },
+  {
+    "municipio": "3171105",
+    "total_vinculos": "6",
+    "municipio_nome": "Veríssimo",
+    "latitude": -19.6657,
+    "longitude": -48.3118
+  },
+  {
+    "municipio": "4315701",
+    "total_vinculos": "5",
+    "municipio_nome": "Rio Pardo",
+    "latitude": -29.988,
+    "longitude": -52.3711
+  },
+  {
+    "municipio": "4312906",
+    "total_vinculos": "5",
+    "municipio_nome": "Nova Bassano",
+    "latitude": -28.7291,
+    "longitude": -51.7072
+  },
+  {
+    "municipio": "2504009",
+    "total_vinculos": "5",
+    "municipio_nome": "Campina Grande",
+    "latitude": -7.22196,
+    "longitude": -35.8731
+  },
+  {
+    "municipio": "3523206",
+    "total_vinculos": "5",
+    "municipio_nome": "Itararé",
+    "latitude": -24.1085,
+    "longitude": -49.3352
+  },
+  {
+    "municipio": "5200050",
+    "total_vinculos": "5",
+    "municipio_nome": "Abadia de Goiás",
+    "latitude": -16.7573,
+    "longitude": -49.4412
+  },
+  {
+    "municipio": "2411205",
+    "total_vinculos": "5",
+    "municipio_nome": "Santa Cruz",
+    "latitude": -6.22475,
+    "longitude": -36.0193
+  },
+  {
+    "municipio": "2309607",
+    "total_vinculos": "5",
+    "municipio_nome": "Pacajus",
+    "latitude": -4.17107,
+    "longitude": -38.465
+  },
+  {
+    "municipio": "3503208",
+    "total_vinculos": "4",
+    "municipio_nome": "Araraquara",
+    "latitude": -21.7845,
+    "longitude": -48.178
+  },
+  {
+    "municipio": "2307601",
+    "total_vinculos": "4",
+    "municipio_nome": "Limoeiro do Norte",
+    "latitude": -5.14392,
+    "longitude": -38.0847
+  },
+  {
+    "municipio": "4207304",
+    "total_vinculos": "4",
+    "municipio_nome": "Imbituba",
+    "latitude": -28.2284,
+    "longitude": -48.6659
+  },
+  {
+    "municipio": "2705101",
+    "total_vinculos": "4",
+    "municipio_nome": "Matriz de Camaragibe",
+    "latitude": -9.15437,
+    "longitude": -35.5243
+  },
+  {
+    "municipio": "1506203",
+    "total_vinculos": "4",
+    "municipio_nome": "Salinópolis",
+    "latitude": -0.630815,
+    "longitude": -47.3465
+  },
+  {
+    "municipio": "2804607",
+    "total_vinculos": "4",
+    "municipio_nome": "Nossa Senhora das Dores",
+    "latitude": -10.4854,
+    "longitude": -37.1963
+  },
+  {
+    "municipio": "2507705",
+    "total_vinculos": "4",
+    "municipio_nome": "Juazeirinho",
+    "latitude": -7.06092,
+    "longitude": -36.5793
+  },
+  {
+    "municipio": "5101308",
+    "total_vinculos": "4",
+    "municipio_nome": "Arenápolis",
+    "latitude": -14.4472,
+    "longitude": -56.8437
+  },
+  {
+    "municipio": "2704708",
+    "total_vinculos": "4",
+    "municipio_nome": "Marechal Deodoro",
+    "latitude": -9.70971,
+    "longitude": -35.8967
+  },
+  {
+    "municipio": "2306306",
+    "total_vinculos": "4",
+    "municipio_nome": "Itapajé",
+    "latitude": -3.68314,
+    "longitude": -39.5855
+  },
+  {
+    "municipio": "2302206",
+    "total_vinculos": "4",
+    "municipio_nome": "Beberibe",
+    "latitude": -4.17741,
+    "longitude": -38.1271
+  },
+  {
+    "municipio": "3547304",
+    "total_vinculos": "4",
+    "municipio_nome": "Santana de Parnaíba",
+    "latitude": -23.4439,
+    "longitude": -46.9178
+  },
+  {
+    "municipio": "3148103",
+    "total_vinculos": "4",
+    "municipio_nome": "Patrocínio",
+    "latitude": -18.9379,
+    "longitude": -46.9934
+  },
+  {
+    "municipio": "3303500",
+    "total_vinculos": "4",
+    "municipio_nome": "Nova Iguaçu",
+    "latitude": -22.7556,
+    "longitude": -43.4603
+  },
+  {
+    "municipio": "2931509",
+    "total_vinculos": "4",
+    "municipio_nome": "Teofilândia",
+    "latitude": -11.4827,
+    "longitude": -38.9913
+  },
+  {
+    "municipio": "3138401",
+    "total_vinculos": "4",
+    "municipio_nome": "Leopoldina",
+    "latitude": -21.5296,
+    "longitude": -42.6421
+  },
+  {
+    "municipio": "3507308",
+    "total_vinculos": "4",
+    "municipio_nome": "Boracéia",
+    "latitude": -22.1926,
+    "longitude": -48.7808
+  },
+  {
+    "municipio": "3123908",
+    "total_vinculos": "4",
+    "municipio_nome": "Entre Rios de Minas",
+    "latitude": -20.6706,
+    "longitude": -44.0654
+  },
+  {
+    "municipio": "3169901",
+    "total_vinculos": "4",
+    "municipio_nome": "Ubá",
+    "latitude": -21.1204,
+    "longitude": -42.9359
+  },
+  {
+    "municipio": "2913705",
+    "total_vinculos": "3",
+    "municipio_nome": "Inhambupe",
+    "latitude": -11.781,
+    "longitude": -38.355
+  },
+  {
+    "municipio": "3149705",
+    "total_vinculos": "3",
+    "municipio_nome": "Perdigão",
+    "latitude": -19.9411,
+    "longitude": -45.078
+  },
+  {
+    "municipio": "3549805",
+    "total_vinculos": "3",
+    "municipio_nome": "São José do Rio Preto",
+    "latitude": -20.8113,
+    "longitude": -49.3758
+  },
+  {
+    "municipio": "2503704",
+    "total_vinculos": "3",
+    "municipio_nome": "Cajazeiras",
+    "latitude": -6.88004,
+    "longitude": -38.5577
+  },
+  {
+    "municipio": "1505502",
+    "total_vinculos": "3",
+    "municipio_nome": "Paragominas",
+    "latitude": -3.00212,
+    "longitude": -47.3527
+  },
+  {
+    "municipio": "1504422",
+    "total_vinculos": "3",
+    "municipio_nome": "Marituba",
+    "latitude": -1.36002,
+    "longitude": -48.3421
+  },
+  {
+    "municipio": "2510808",
+    "total_vinculos": "3",
+    "municipio_nome": "Patos",
+    "latitude": -7.01743,
+    "longitude": -37.2747
+  },
+  {
+    "municipio": "2305506",
+    "total_vinculos": "3",
+    "municipio_nome": "Iguatu",
+    "latitude": -6.36281,
+    "longitude": -39.2892
+  },
+  {
+    "municipio": "2905206",
+    "total_vinculos": "3",
+    "municipio_nome": "Caetité",
+    "latitude": -14.0684,
+    "longitude": -42.4861
+  },
+  {
+    "municipio": "2915601",
+    "total_vinculos": "3",
+    "municipio_nome": "Itamaraju",
+    "latitude": -17.0378,
+    "longitude": -39.5386
+  },
+  {
+    "municipio": "3133808",
+    "total_vinculos": "3",
+    "municipio_nome": "Itaúna",
+    "latitude": -20.0818,
+    "longitude": -44.5801
+  },
+  {
+    "municipio": "2807402",
+    "total_vinculos": "3",
+    "municipio_nome": "Tobias Barreto",
+    "latitude": -11.1798,
+    "longitude": -37.9995
+  },
+  {
+    "municipio": "2700706",
+    "total_vinculos": "3",
+    "municipio_nome": "Batalha",
+    "latitude": -9.6742,
+    "longitude": -37.133
+  },
+  {
+    "municipio": "2708006",
+    "total_vinculos": "2",
+    "municipio_nome": "Santana do Ipanema",
+    "latitude": -9.36999,
+    "longitude": -37.248
+  },
+  {
+    "municipio": "3302700",
+    "total_vinculos": "2",
+    "municipio_nome": "Maricá",
+    "latitude": -22.9354,
+    "longitude": -42.8246
+  },
+  {
+    "municipio": "2606903",
+    "total_vinculos": "2",
+    "municipio_nome": "Iguaracy",
+    "latitude": -7.83222,
+    "longitude": -37.5082
+  },
+  {
+    "municipio": "2112308",
+    "total_vinculos": "2",
+    "municipio_nome": "Tuntum",
+    "latitude": -5.25476,
+    "longitude": -44.6444
+  },
+  {
+    "municipio": "3152808",
+    "total_vinculos": "2",
+    "municipio_nome": "Prata",
+    "latitude": -19.3086,
+    "longitude": -48.9276
+  },
+  {
+    "municipio": "2702900",
+    "total_vinculos": "2",
+    "municipio_nome": "Girau do Ponciano",
+    "latitude": -9.88404,
+    "longitude": -36.8316
+  },
+  {
+    "municipio": "3537800",
+    "total_vinculos": "2",
+    "municipio_nome": "Piedade",
+    "latitude": -23.7139,
+    "longitude": -47.4256
+  },
+  {
+    "municipio": "5205109",
+    "total_vinculos": "2",
+    "municipio_nome": "Catalão",
+    "latitude": -18.1656,
+    "longitude": -47.944
+  },
+  {
+    "municipio": "2905602",
+    "total_vinculos": "2",
+    "municipio_nome": "Camacan",
+    "latitude": -15.4142,
+    "longitude": -39.4919
+  },
+  {
+    "municipio": "3156106",
+    "total_vinculos": "2",
+    "municipio_nome": "Ritápolis",
+    "latitude": -21.0276,
+    "longitude": -44.3204
+  },
+  {
+    "municipio": "2302404",
+    "total_vinculos": "2",
+    "municipio_nome": "Boa Viagem",
+    "latitude": -5.11258,
+    "longitude": -39.7337
+  },
+  {
+    "municipio": "4304671",
+    "total_vinculos": "2",
+    "municipio_nome": "Capivari do Sul",
+    "latitude": -30.1383,
+    "longitude": -50.5152
+  },
+  {
+    "municipio": "3147204",
+    "total_vinculos": "2",
+    "municipio_nome": "Paraguaçu",
+    "latitude": -21.5465,
+    "longitude": -45.7374
+  },
+  {
+    "municipio": "5105622",
+    "total_vinculos": "2",
+    "municipio_nome": "Mirassol d'Oeste",
+    "latitude": -15.6759,
+    "longitude": -58.0951
+  },
+  {
+    "municipio": "2926202",
+    "total_vinculos": "2",
+    "municipio_nome": "Riachão das Neves",
+    "latitude": -11.7508,
+    "longitude": -44.9143
+  },
+  {
+    "municipio": "4318903",
+    "total_vinculos": "2",
+    "municipio_nome": "São Luiz Gonzaga",
+    "latitude": -28.412,
+    "longitude": -54.9559
+  },
+  {
+    "municipio": "2605905",
+    "total_vinculos": "2",
+    "municipio_nome": "Gameleira",
+    "latitude": -8.5798,
+    "longitude": -35.3846
+  },
+  {
+    "municipio": "4124400",
+    "total_vinculos": "2",
+    "municipio_nome": "Santo Antônio do Sudoeste",
+    "latitude": -26.0737,
+    "longitude": -53.7251
+  },
+  {
+    "municipio": "5212501",
+    "total_vinculos": "2",
+    "municipio_nome": "Luziânia",
+    "latitude": -16.253,
+    "longitude": -47.95
+  },
+  {
+    "municipio": "2609402",
+    "total_vinculos": "2",
+    "municipio_nome": "Moreno",
+    "latitude": -8.10871,
+    "longitude": -35.0835
+  },
+  {
+    "municipio": "2312304",
+    "total_vinculos": "2",
+    "municipio_nome": "São Benedito",
+    "latitude": -4.04713,
+    "longitude": -40.8596
+  },
+  {
+    "municipio": "2406106",
+    "total_vinculos": "2",
+    "municipio_nome": "Jucurutu",
+    "latitude": -6.0306,
+    "longitude": -37.009
+  },
+  {
+    "municipio": "2111508",
+    "total_vinculos": "2",
+    "municipio_nome": "São Mateus do Maranhão",
+    "latitude": -4.03736,
+    "longitude": -44.4707
+  },
+  {
+    "municipio": "3503406",
+    "total_vinculos": "2",
+    "municipio_nome": "Arealva",
+    "latitude": -22.031,
+    "longitude": -48.9135
+  },
+  {
+    "municipio": "3103900",
+    "total_vinculos": "2",
+    "municipio_nome": "Araújos",
+    "latitude": -19.9405,
+    "longitude": -45.1671
+  },
+  {
+    "municipio": "1500800",
+    "total_vinculos": "2",
+    "municipio_nome": "Ananindeua",
+    "latitude": -1.36391,
+    "longitude": -48.3743
+  },
+  {
+    "municipio": "3536703",
+    "total_vinculos": "2",
+    "municipio_nome": "Pederneiras",
+    "latitude": -22.3511,
+    "longitude": -48.7781
+  },
+  {
+    "municipio": "3137403",
+    "total_vinculos": "2",
+    "municipio_nome": "Lagoa Dourada",
+    "latitude": -20.9139,
+    "longitude": -44.0797
+  },
+  {
+    "municipio": "4312450",
+    "total_vinculos": "2",
+    "municipio_nome": "Morro Redondo",
+    "latitude": -31.5887,
+    "longitude": -52.6261
+  },
+  {
+    "municipio": "3302502",
+    "total_vinculos": "2",
+    "municipio_nome": "Magé",
+    "latitude": -22.6632,
+    "longitude": -43.0315
+  },
+  {
+    "municipio": "3169307",
+    "total_vinculos": "2",
+    "municipio_nome": "Três Corações",
+    "latitude": -21.6921,
+    "longitude": -45.2511
+  },
+  {
+    "municipio": "2307254",
+    "total_vinculos": "2",
+    "municipio_nome": "Jijoca de Jericoacoara",
+    "latitude": -2.79331,
+    "longitude": -40.5127
+  },
+  {
+    "municipio": "2311306",
+    "total_vinculos": "2",
+    "municipio_nome": "Quixadá",
+    "latitude": -4.9663,
+    "longitude": -39.0155
+  },
+  {
+    "municipio": "4206504",
+    "total_vinculos": "2",
+    "municipio_nome": "Guaramirim",
+    "latitude": -26.4688,
+    "longitude": -49.0026
+  },
+  {
+    "municipio": "3300456",
+    "total_vinculos": "2",
+    "municipio_nome": "Belford Roxo",
+    "latitude": -22.764,
+    "longitude": -43.3992
+  },
+  {
+    "municipio": "3304904",
+    "total_vinculos": "2",
+    "municipio_nome": "São Gonçalo",
+    "latitude": -22.8268,
+    "longitude": -43.0634
+  },
+  {
+    "municipio": "2702306",
+    "total_vinculos": "2",
+    "municipio_nome": "Coruripe",
+    "latitude": -10.1276,
+    "longitude": -36.1717
+  },
+  {
+    "municipio": "4217709",
+    "total_vinculos": "2",
+    "municipio_nome": "Sombrio",
+    "latitude": -29.108,
+    "longitude": -49.6328
+  },
+  {
+    "municipio": "2406502",
+    "total_vinculos": "2",
+    "municipio_nome": "Lagoa Nova",
+    "latitude": -6.09339,
+    "longitude": -36.4703
+  },
+  {
+    "municipio": "2506004",
+    "total_vinculos": "2",
+    "municipio_nome": "Esperança",
+    "latitude": -7.02278,
+    "longitude": -35.8597
+  },
+  {
+    "municipio": "2302800",
+    "total_vinculos": "2",
+    "municipio_nome": "Canindé",
+    "latitude": -4.35162,
+    "longitude": -39.3155
+  },
+  {
+    "municipio": "4126504",
+    "total_vinculos": "2",
+    "municipio_nome": "Sertanópolis",
+    "latitude": -23.0571,
+    "longitude": -51.0399
+  },
+  {
+    "municipio": "4312252",
+    "total_vinculos": "2",
+    "municipio_nome": "Minas do Leão",
+    "latitude": -30.1346,
+    "longitude": -52.0423
+  },
+  {
+    "municipio": "3104502",
+    "total_vinculos": "1",
+    "municipio_nome": "Arinos",
+    "latitude": -15.9187,
+    "longitude": -46.1043
+  },
+  {
+    "municipio": "2611101",
+    "total_vinculos": "1",
+    "municipio_nome": "Petrolina",
+    "latitude": -9.38866,
+    "longitude": -40.5027
+  },
+  {
+    "municipio": "2207900",
+    "total_vinculos": "1",
+    "municipio_nome": "Pedro II",
+    "latitude": -4.42585,
+    "longitude": -41.4482
+  },
+  {
+    "municipio": "2504801",
+    "total_vinculos": "1",
+    "municipio_nome": "Coremas",
+    "latitude": -7.00712,
+    "longitude": -37.9346
+  },
+  {
+    "municipio": "3511508",
+    "total_vinculos": "1",
+    "municipio_nome": "Cerquilho",
+    "latitude": -23.1665,
+    "longitude": -47.7459
+  },
+  {
+    "municipio": "2907509",
+    "total_vinculos": "1",
+    "municipio_nome": "Catu",
+    "latitude": -12.3513,
+    "longitude": -38.3791
+  },
+  {
+    "municipio": "2501104",
+    "total_vinculos": "1",
+    "municipio_nome": "Areia",
+    "latitude": -6.96396,
+    "longitude": -35.6977
+  },
+  {
+    "municipio": "4108601",
+    "total_vinculos": "1",
+    "municipio_nome": "Goioerê",
+    "latitude": -24.1835,
+    "longitude": -53.0248
+  },
+  {
+    "municipio": "2503308",
+    "total_vinculos": "1",
+    "municipio_nome": "Cachoeira dos Índios",
+    "latitude": -6.91353,
+    "longitude": -38.676
+  },
+  {
+    "municipio": "3518800",
+    "total_vinculos": "1",
+    "municipio_nome": "Guarulhos",
+    "latitude": -23.4538,
+    "longitude": -46.5333
+  },
+  {
+    "municipio": "4314407",
+    "total_vinculos": "1",
+    "municipio_nome": "Pelotas",
+    "latitude": -31.7649,
+    "longitude": -52.3371
+  },
+  {
+    "municipio": "3103504",
+    "total_vinculos": "1",
+    "municipio_nome": "Araguari",
+    "latitude": -18.6456,
+    "longitude": -48.1934
+  },
+  {
+    "municipio": "1100205",
+    "total_vinculos": "1",
+    "municipio_nome": "Porto Velho",
+    "latitude": -8.76077,
+    "longitude": -63.8999
+  },
+  {
+    "municipio": "2616308",
+    "total_vinculos": "1",
+    "municipio_nome": "Vicência",
+    "latitude": -7.65655,
+    "longitude": -35.3139
+  },
+  {
+    "municipio": "2703205",
+    "total_vinculos": "1",
+    "municipio_nome": "Igreja Nova",
+    "latitude": -10.1235,
+    "longitude": -36.6597
+  },
+  {
+    "municipio": "5212600",
+    "total_vinculos": "1",
+    "municipio_nome": "Mairipotaba",
+    "latitude": -17.2975,
+    "longitude": -49.4898
+  },
+  {
+    "municipio": "2900702",
+    "total_vinculos": "1",
+    "municipio_nome": "Alagoinhas",
+    "latitude": -12.1335,
+    "longitude": -38.4208
+  },
+  {
+    "municipio": "3303203",
+    "total_vinculos": "1",
+    "municipio_nome": "Nilópolis",
+    "latitude": -22.8057,
+    "longitude": -43.4233
+  },
+  {
+    "municipio": "2313609",
+    "total_vinculos": "1",
+    "municipio_nome": "Ubajara",
+    "latitude": -3.85448,
+    "longitude": -40.9204
+  },
+  {
+    "municipio": "3552205",
+    "total_vinculos": "1",
+    "municipio_nome": "Sorocaba",
+    "latitude": -23.4969,
+    "longitude": -47.4451
+  },
+  {
+    "municipio": "2705200",
+    "total_vinculos": "1",
+    "municipio_nome": "Messias",
+    "latitude": -9.39384,
+    "longitude": -35.8392
+  },
+  {
+    "municipio": "2604106",
+    "total_vinculos": "1",
+    "municipio_nome": "Caruaru",
+    "latitude": -8.28455,
+    "longitude": -35.9699
+  },
+  {
+    "municipio": "2927408",
+    "total_vinculos": "1",
+    "municipio_nome": "Salvador",
+    "latitude": -12.9718,
+    "longitude": -38.5011
+  },
+  {
+    "municipio": "4315305",
+    "total_vinculos": "1",
+    "municipio_nome": "Quaraí",
+    "latitude": -30.384,
+    "longitude": -56.4483
+  },
+  {
+    "municipio": "5205455",
+    "total_vinculos": "1",
+    "municipio_nome": "Cezarina",
+    "latitude": -16.9718,
+    "longitude": -49.7758
+  },
+  {
+    "municipio": "2512101",
+    "total_vinculos": "1",
+    "municipio_nome": "Pombal",
+    "latitude": -6.76606,
+    "longitude": -37.8003
+  },
+  {
+    "municipio": "3143203",
+    "total_vinculos": "1",
+    "municipio_nome": "Monte Santo de Minas",
+    "latitude": -21.1873,
+    "longitude": -46.9753
+  },
+  {
+    "municipio": "2708600",
+    "total_vinculos": "1",
+    "municipio_nome": "São Miguel dos Campos",
+    "latitude": -9.78301,
+    "longitude": -36.0971
+  },
+  {
+    "municipio": "3203502",
+    "total_vinculos": "1",
+    "municipio_nome": "Montanha",
+    "latitude": -18.1303,
+    "longitude": -40.3668
+  },
+  {
+    "municipio": "3301009",
+    "total_vinculos": "1",
+    "municipio_nome": "Campos dos Goytacazes",
+    "latitude": -21.7622,
+    "longitude": -41.3181
+  },
+  {
+    "municipio": "2505105",
+    "total_vinculos": "1",
+    "municipio_nome": "Cuité",
+    "latitude": -6.47647,
+    "longitude": -36.1515
+  },
+  {
+    "municipio": "4106308",
+    "total_vinculos": "1",
+    "municipio_nome": "Corbélia",
+    "latitude": -24.7971,
+    "longitude": -53.3006
+  },
+  {
+    "municipio": "2608909",
+    "total_vinculos": "1",
+    "municipio_nome": "Limoeiro",
+    "latitude": -7.8726,
+    "longitude": -35.4402
+  },
+  {
+    "municipio": "3516200",
+    "total_vinculos": "1",
+    "municipio_nome": "Franca",
+    "latitude": -20.5352,
+    "longitude": -47.4039
+  },
+  {
+    "municipio": "3117306",
+    "total_vinculos": "1",
+    "municipio_nome": "Conceição das Alagoas",
+    "latitude": -19.9172,
+    "longitude": -48.3839
+  }
+]

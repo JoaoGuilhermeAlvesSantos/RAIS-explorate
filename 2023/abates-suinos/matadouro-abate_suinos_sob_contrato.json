@@ -1,37 +1,83 @@
-[{
-  "municipio": "TOTAL",
-  "total_vinculos": "150"
-}, {
-  "municipio": "3201209",
-  "total_vinculos": "71"
-}, {
-  "municipio": "3122306",
-  "total_vinculos": "41"
-}, {
-  "municipio": "3100401",
-  "total_vinculos": "11"
-}, {
-  "municipio": "3201506",
-  "total_vinculos": "10"
-}, {
-  "municipio": "4304903",
-  "total_vinculos": "4"
-}, {
-  "municipio": "3506102",
-  "total_vinculos": "4"
-}, {
-  "municipio": "3128501",
-  "total_vinculos": "3"
-}, {
-  "municipio": "5006606",
-  "total_vinculos": "2"
-}, {
-  "municipio": "3158003",
-  "total_vinculos": "2"
-}, {
-  "municipio": "2305803",
-  "total_vinculos": "1"
-}, {
-  "municipio": "1506138",
-  "total_vinculos": "1"
-}]
+[
+  {
+    "municipio": "TOTAL",
+    "total_vinculos": "150"
+  },
+  {
+    "municipio": "3201209",
+    "total_vinculos": "71",
+    "municipio_nome": "Cachoeiro de Itapemirim",
+    "latitude": -20.8462,
+    "longitude": -41.1198
+  },
+  {
+    "municipio": "3122306",
+    "total_vinculos": "41",
+    "municipio_nome": "Divinópolis",
+    "latitude": -20.1446,
+    "longitude": -44.8912
+  },
+  {
+    "municipio": "3100401",
+    "total_vinculos": "11",
+    "municipio_nome": "Acaiaca",
+    "latitude": -20.359,
+    "longitude": -43.1439
+  },
+  {
+    "municipio": "3201506",
+    "total_vinculos": "10",
+    "municipio_nome": "Colatina",
+    "latitude": -19.5493,
+    "longitude": -40.6269
+  },
+  {
+    "municipio": "4304903",
+    "total_vinculos": "4",
+    "municipio_nome": "Casca",
+    "latitude": -28.5605,
+    "longitude": -51.9815
+  },
+  {
+    "municipio": "3506102",
+    "total_vinculos": "4",
+    "municipio_nome": "Bebedouro",
+    "latitude": -20.9491,
+    "longitude": -48.4791
+  },
+  {
+    "municipio": "3128501",
+    "total_vinculos": "3",
+    "municipio_nome": "Guarará",
+    "latitude": -21.7304,
+    "longitude": -43.0334
+  },
+  {
+    "municipio": "5006606",
+    "total_vinculos": "2",
+    "municipio_nome": "Ponta Porã",
+    "latitude": -22.5296,
+    "longitude": -55.7203
+  },
+  {
+    "municipio": "3158003",
+    "total_vinculos": "2",
+    "municipio_nome": "Santa Maria de Itabira",
+    "latitude": -19.4431,
+    "longitude": -43.1064
+  },
+  {
+    "municipio": "2305803",
+    "total_vinculos": "1",
+    "municipio_nome": "Ipu",
+    "latitude": -4.31748,
+    "longitude": -40.7059
+  },
+  {
+    "municipio": "1506138",
+    "total_vinculos": "1",
+    "municipio_nome": "Redenção",
+    "latitude": -8.02529,
+    "longitude": -50.0317
+  }
+]
