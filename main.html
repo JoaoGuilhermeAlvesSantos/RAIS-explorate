@@ -321,7 +321,7 @@
                         <div class="filter-section">
                             <h5 class="mb-3"><i class="fas fa-filter"></i> Filter Data</h5>
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <label for="data-source-filter" class="form-label">
                                         <i class="fas fa-file-alt"></i> Data Source
                                     </label>
@@ -329,13 +329,25 @@
                                         <option value="all" selected>All Sources</option>
                                     </select>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
+                                    <label for="grupo-filter" class="form-label">
+                                        <i class="fas fa-industry"></i> Activity Group
+                                    </label>
+                                    <select class="form-select form-select-lg" id="grupo-filter">
+                                        <option value="all" selected>All Groups</option>
+                                        <option value="criacao_suinos">Criação de Suínos</option>
+                                        <option value="criacao_aves">Criação de Aves</option>
+                                        <option value="abate_suinos_aves">Abate de Suínos/Aves</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
                                     <label for="min-employment-filter" class="form-label">
                                         <i class="fas fa-users"></i> Min Employment Links
                                     </label>
                                     <input type="number" class="form-control form-control-lg" id="min-employment-filter" placeholder="0" min="0">
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <label for="state-filter" class="form-label">
                                         <i class="fas fa-map-marker-alt"></i> State (UF)
                                     </label>
@@ -367,6 +379,7 @@
                                                 <th><i class="fas fa-hashtag"></i> Code</th>
                                                 <th><i class="fas fa-city"></i> Municipality</th>
                                                 <th><i class="fas fa-map-marker-alt"></i> State</th>
+                                                <th><i class="fas fa-industry"></i> Activity Group</th>
                                                 <th><i class="fas fa-users"></i> Employment Links</th>
                                                 <th><i class="fas fa-globe"></i> Latitude</th>
                                                 <th><i class="fas fa-globe"></i> Longitude</th>
@@ -380,30 +393,17 @@
 
                             <!-- Map Panel -->
                             <div class="tab-pane fade" id="map-panel" role="tabpanel">
-                                <div id="map"></div>
-                                <div class="legend mt-4">
-                                    <h6 class="mb-3"><i class="fas fa-palette"></i> Employment Links Legend</h6>
-                                    <div class="legend-item">
-                                        <div class="legend-color" style="background-color: #ff0000;"></div>
-                                        <span><strong>> 10,000</strong> - High concentration</span>
-                                    </div>
-                                    <div class="legend-item">
-                                        <div class="legend-color" style="background-color: #ff8000;"></div>
-                                        <span><strong>5,000 - 10,000</strong> - Medium-high concentration</span>
-                                    </div>
-                                    <div class="legend-item">
-                                        <div class="legend-color" style="background-color: #ffff00;"></div>
-                                        <span><strong>1,000 - 5,000</strong> - Medium concentration</span>
-                                    </div>
-                                    <div class="legend-item">
-                                        <div class="legend-color" style="background-color: #80ff00;"></div>
-                                        <span><strong>500 - 1,000</strong> - Low-medium concentration</span>
-                                    </div>
-                                    <div class="legend-item">
-                                        <div class="legend-color" style="background-color: #00ff00;"></div>
-                                        <span><strong>< 500</strong> - Low concentration</span>
-                                    </div>
+                                <div class="mb-3">
+                                    <label for="map-group-select" class="form-label"><i class="fas fa-layer-group"></i> Select Activity Group Map:</label>
+                                    <select class="form-select form-select-lg" id="map-group-select">
+                                        <option value="">Select a group...</option>
+                                        <option value="brazil_map_Criação_de_Suínos.html">Criação de Suínos</option>
+                                        <option value="brazil_map_Criação_de_Aves.html">Criação de Aves</option>
+                                        <option value="brazil_map_Abate_de_Suínos_Aves.html">Abate de Suínos/Aves</option>
+                                        <option value="brazil_map_Other_Activities.html">Other Activities</option>
+                                    </select>
                                 </div>
+                                <iframe id="map-iframe" width="100%" height="600" frameborder="0" style="border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);"></iframe>
                             </div>
                         </div>
                     </div>
@@ -419,8 +419,6 @@
     <!-- DataTables JS -->
     <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
@@ -429,18 +427,7 @@
         let allData = [];
         let filteredData = [];
         let dataTable = null;
-        let map = null;
-        let markers = [];
         let dataSources = new Set();
-
-        // Color scale for map markers
-        function getColor(employment) {
-            if (employment > 10000) return '#ff0000';
-            if (employment > 5000) return '#ff8000';
-            if (employment > 1000) return '#ffff00';
-            if (employment > 500) return '#80ff00';
-            return '#00ff00';
-        }
 
         // Extract state from municipality code
         function getStateFromCode(code) {
@@ -452,6 +439,20 @@
                 '50': 'MS', '51': 'MT', '52': 'GO', '53': 'DF'
             };
             return stateMap[code.substring(0, 2)] || 'Unknown';
+        }
+
+        // Get grupo from sources
+        function getGrupoFromSources(sources) {
+            for (let source of sources) {
+                if (source.includes('criacao_de_suinos')) {
+                    return 'criacao_suinos';
+                } else if (source.includes('criacao_de_aves')) {
+                    return 'criacao_aves';
+                } else if (source.includes('abates')) {
+                    return 'abate_suinos_aves';
+                }
+            }
+            return 'other';
         }
 
         // Load data from all JSON files
@@ -471,7 +472,8 @@
                     ...item,
                     state: getStateFromCode(item.municipio),
                     employment: parseInt(item.total_vinculos),
-                    sources: item.sources || []
+                    sources: item.sources || [],
+                    grupo: getGrupoFromSources(item.sources || [])
                 }));
 
                 // Extract unique data sources
@@ -483,7 +485,6 @@
                 updateFilters();
                 updateStats();
                 initializeTable();
-                initializeMap();
 
                 // Hide spinner and show content
                 spinner.style.display = 'none';
@@ -582,6 +583,18 @@
                     { data: 'municipio_nome' },
                     { data: 'state' },
                     {
+                        data: 'grupo',
+                        render: function(data) {
+                            const colors = {
+                                'criacao_suinos': '#ff6b6b',
+                                'criacao_aves': '#4ecdc4',
+                                'abate_suinos_aves': '#45b7d1',
+                                'other': '#95a5a6'
+                            };
+                            return `<span class="badge" style="background-color: ${colors[data] || '#95a5a6'}; color: white;">${data.replace('_', ' ')}</span>`;
+                        }
+                    },
+                    {
                         data: 'employment',
                         render: function(data) {
                             return '<span class="badge bg-primary fs-6">' + data.toLocaleString() + '</span>';
@@ -607,7 +620,7 @@
                     }
                 ],
                 pageLength: 25,
-                order: [[3, 'desc']], // Sort by employment descending
+                order: [[4, 'desc']], // Sort by employment descending
                 responsive: true,
                 language: {
                     search: '<i class="fas fa-search"></i> Search municipalities:',
@@ -628,61 +641,10 @@
             });
         }
 
-        // Initialize Leaflet map
-        function initializeMap() {
-            if (map) {
-                map.remove();
-            }
-
-            map = L.map('map').setView([-15.0, -55.0], 4);
-
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors'
-            }).addTo(map);
-
-            updateMapMarkers();
-        }
-
-        // Update map markers based on filtered data
-        function updateMapMarkers() {
-            // Clear existing markers
-            markers.forEach(marker => map.removeLayer(marker));
-            markers = [];
-
-            const dataToShow = filteredData.length > 0 ? filteredData : allData;
-
-            dataToShow.forEach(item => {
-                if (item.latitude && item.longitude) {
-                    const marker = L.circleMarker([item.latitude, item.longitude], {
-                        color: getColor(item.employment),
-                        fillColor: getColor(item.employment),
-                        fillOpacity: 0.7,
-                        radius: Math.max(3, Math.min(15, Math.log(item.employment) * 2))
-                    }).addTo(map);
-
-                    marker.bindPopup(`
-                        <div style="font-family: 'Segoe UI', sans-serif; max-width: 250px;">
-                            <h6 style="margin-bottom: 8px; color: #2c3e50;"><i class="fas fa-city"></i> ${item.municipio_nome}</h6>
-                            <div style="font-size: 0.9em;">
-                                <p style="margin: 4px 0;"><strong>State:</strong> ${item.state}</p>
-                                <p style="margin: 4px 0;"><strong>Employment Links:</strong> <span style="color: #007bff; font-weight: bold;">${item.employment.toLocaleString()}</span></p>
-                                <p style="margin: 4px 0;"><strong>Coordinates:</strong> ${item.latitude ? parseFloat(item.latitude).toFixed(4) : '-'}, ${item.longitude ? parseFloat(item.longitude).toFixed(4) : '-'}</p>
-                                <div style="margin-top: 8px;">
-                                    <strong>Data Sources:</strong><br>
-                                    ${item.sources.map(s => `<span class="badge bg-light text-dark" style="font-size: 0.75em; margin: 1px;">${s.replace('./2023/', '').replace('.json', '')}</span>`).join(' ')}
-                                </div>
-                            </div>
-                        </div>
-                    `);
-
-                    markers.push(marker);
-                }
-            });
-        }
-
         // Apply filters
         function applyFilters() {
             const selectedSource = document.getElementById('data-source-filter').value;
+            const selectedGrupo = document.getElementById('grupo-filter').value;
             const minEmployment = parseInt(document.getElementById('min-employment-filter').value) || 0;
             const selectedState = document.getElementById('state-filter').value;
 
@@ -699,11 +661,14 @@
                     if (!hasMatchingSource) return false;
                 }
 
+                // Grupo filter
+                if (selectedGrupo !== 'all' && item.grupo !== selectedGrupo) return false;
+
                 return true;
             });
 
             // Show filter status if filters are active
-            const hasActiveFilters = minEmployment > 0 || selectedState !== 'all' || selectedSource !== 'all';
+            const hasActiveFilters = minEmployment > 0 || selectedState !== 'all' || selectedSource !== 'all' || selectedGrupo !== 'all';
             document.getElementById('filter-status').style.display = hasActiveFilters ? 'inline-block' : 'none';
 
             // Update statistics with filtered data
@@ -716,15 +681,13 @@
                 dataTable.draw();
             }
 
-            // Update map
-            updateMapMarkers();
-
             console.log(`Filtered to ${filteredData.length} municipalities`);
         }
 
         // Reset filters
         function resetFilters() {
             document.getElementById('data-source-filter').value = 'all';
+            document.getElementById('grupo-filter').value = 'all';
             document.getElementById('min-employment-filter').value = '';
             document.getElementById('state-filter').value = 'all';
 
@@ -739,6 +702,23 @@
         // Event listeners
         document.getElementById('apply-filters').addEventListener('click', applyFilters);
         document.getElementById('reset-filters').addEventListener('click', resetFilters);
+
+        // Auto-apply filters on change
+        document.getElementById('data-source-filter').addEventListener('change', applyFilters);
+        document.getElementById('grupo-filter').addEventListener('change', applyFilters);
+        document.getElementById('min-employment-filter').addEventListener('input', applyFilters);
+        document.getElementById('state-filter').addEventListener('change', applyFilters);
+
+        // Map select
+        document.getElementById('map-group-select').addEventListener('change', function() {
+            const selected = this.value;
+            const iframe = document.getElementById('map-iframe');
+            if (selected) {
+                iframe.src = selected;
+            } else {
+                iframe.src = '';
+            }
+        });
 
         // Initialize on page load
         document.addEventListener('DOMContentLoaded', loadData);
