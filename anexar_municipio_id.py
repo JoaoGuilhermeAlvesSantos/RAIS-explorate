@@ -1,7 +1,6 @@
 from pathlib import Path
 import csv
 import re
-import unicodedata
 from difflib import SequenceMatcher
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
@@ -13,14 +12,8 @@ OUTPUT_PATH = DATA_DIR / "ifdm_2023_codigo_ibge.csv"
 def normalize_text(value):
     if value is None:
         return ""
-    text = str(value)
-    text = unicodedata.normalize("NFKD", text)
-    text = "".join(ch for ch in text if not unicodedata.combining(ch))
-    text = text.lower()
-    text = re.sub(r"\b(d[ao]s?|de|da|dos|das|e)\b", " ", text)
-    text = re.sub(r"\([^)]*\)", " ", text)
-    text = re.sub(r"[^a-z0-9\s]", " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
+    text = str(value).strip().lower()
+    text = re.sub(r"\s+", " ", text)
     return text
 
 
@@ -120,14 +113,14 @@ def main():
             continue
 
         candidates = [cand for cand in municipalities if cand["sigla_uf"] == uf]
-        score, best = best_match_name(name_norm, candidates)
+        score, best, length_diff = best_match_name(name_norm, candidates)
         if best is None:
             unmatched.append((name, uf, "no-candidate"))
             continue
 
-        if score < 0.80:
+        if score < 0.80 or length_diff > 3:
             low_confidence += 1
-            unmatched.append((name, uf, f"low-score={score:.3f}; matched={best.get('nome')}"))
+            unmatched.append((name, uf, f"low-score={score:.3f}; len-diff={length_diff}; matched={best.get('nome')}"))
             continue
 
         row["codigo_ibge"] = best.get("codigo_ibge", "")
