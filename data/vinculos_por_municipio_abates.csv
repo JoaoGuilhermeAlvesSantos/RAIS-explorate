@@ -1,0 +1,573 @@
+municipio,municipio_nome,total_vinculos
+1100023,Ariquemes,2
+1100098,Espigão D'Oeste,848
+1100122,Ji-Paraná,41
+1100205,Porto Velho,9
+1200104,Brasiléia,607
+1302603,Manaus,8
+1500800,Ananindeua,2
+1501501,Benevides,486
+1504208,Marabá,47
+1504422,Marituba,3
+1505502,Paragominas,659
+1505536,Parauapebas,6
+1506138,Redenção,1
+1506161,Rio Maria,3
+1506203,Salinópolis,4
+1506500,Santa Izabel do Pará,278
+2103000,Caxias,27
+2105153,Igarapé do Meio,39
+2111300,São Luís,27
+2111508,São Mateus do Maranhão,2
+2112209,Timon,10
+2112308,Tuntum,2
+2203701,Esperantina,19
+2205508,José de Freitas,30
+2207702,Parnaíba,16
+2207900,Pedro II,1
+2211001,Teresina,224
+2301000,Aquiraz,673
+2302206,Beberibe,4
+2302404,Boa Viagem,2
+2302800,Canindé,2
+2303501,Cascavel,574
+2303709,Caucaia,8
+2304400,Fortaleza,14
+2305506,Iguatu,3
+2305803,Ipu,1
+2306306,Itapajé,4
+2307254,Jijoca de Jericoacoara,2
+2307304,Juazeiro do Norte,28
+2307502,Lavras da Mangabeira,1
+2307601,Limoeiro do Norte,4
+2309607,Pacajus,5
+2309706,Pacatuba,8
+2311306,Quixadá,2
+2311801,Russas,7
+2312304,São Benedito,2
+2312908,Sobral,6
+2313609,Ubajara,1
+2402006,Caicó,6
+2403103,Currais Novos,6
+2406106,Jucurutu,2
+2406502,Lagoa Nova,2
+2408003,Mossoró,12
+2408102,Natal,25
+2411205,Santa Cruz,5
+2501104,Areia,1
+2503308,Cachoeira dos Índios,1
+2503704,Cajazeiras,3
+2504009,Campina Grande,5
+2504801,Coremas,1
+2505105,Cuité,1
+2506004,Esperança,2
+2506301,Guarabira,1481
+2507507,João Pessoa,18
+2507705,Juazeirinho,4
+2508901,Mamanguape,9
+2510808,Patos,3
+2512101,Pombal,1
+2515302,Sapé,9
+2601102,Araripina,14
+2601706,Belo Jardim,1890
+2604106,Caruaru,1
+2605905,Gameleira,2
+2606200,Goiana,38
+2606903,Iguaracy,2
+2607752,Itapissuma,124
+2607901,Jaboatão dos Guararapes,21
+2608800,Lajedo,6
+2608909,Limoeiro,1
+2609402,Moreno,2
+2610707,Paulista,410
+2610905,Pesqueira,181
+2611002,Petrolândia,29
+2611101,Petrolina,1
+2613909,Serra Talhada,52
+2614501,Surubim,14
+2615300,Timbaúba,9
+2616308,Vicência,1
+2700300,Arapiraca,19
+2700706,Batalha,3
+2702306,Coruripe,2
+2702900,Girau do Ponciano,2
+2703205,Igreja Nova,1
+2704302,Maceió,19
+2704708,Marechal Deodoro,4
+2705101,Matriz de Camaragibe,4
+2705200,Messias,1
+2707909,Santa Luzia do Norte,220
+2708006,Santana do Ipanema,2
+2708204,São Brás,1
+2708600,São Miguel dos Campos,1
+2800308,Aracaju,8
+2803500,Lagarto,28
+2804607,Nossa Senhora das Dores,4
+2806701,São Cristóvão,99
+2807105,Simão Dias,6
+2807402,Tobias Barreto,3
+2900702,Alagoinhas,1
+2903201,Barreiras,322
+2905206,Caetité,3
+2905602,Camacan,2
+2907301,Castro Alves,6
+2907509,Catu,1
+2908200,Conceição da Feira,531
+2908903,Coração de Maria,14
+2910727,Eunápolis,608
+2910800,Feira de Santana,213
+2911709,Guanambi,9
+2913705,Inhambupe,3
+2915601,Itamaraju,3
+2919553,Luís Eduardo Magalhães,733
+2925501,Prado,8
+2926202,Riachão das Neves,2
+2926608,Ribeira do Pombal,18
+2927408,Salvador,1
+2928703,Santo Antônio de Jesus,441
+2929305,São Gonçalo dos Campos,2180
+2931350,Teixeira de Freitas,150
+2931509,Teofilândia,4
+2931905,Tucano,2
+2932903,Valença,12
+2933174,Varzedo,263
+2933307,Vitória da Conquista,112
+3100401,Acaiaca,11
+3102001,Alterosa,21
+3102605,Andradas,27
+3103504,Araguari,1
+3103900,Araújos,2
+3104304,Areado,45
+3104502,Arinos,1
+3104601,Astolfo Dutra,1
+3105608,Barbacena,2884
+3106200,Belo Horizonte,225
+3106309,Belo Oriente,5
+3106705,Betim,1027
+3107406,Bom Despacho,20
+3109006,Brumadinho,109
+3109709,Cachoeira de Minas,9
+3110004,Caeté,7
+3110707,Cambuquira,99
+3112307,Capelinha,7
+3113305,Carangola,6
+3115102,Cássia,8
+3117306,Conceição das Alagoas,1
+3122306,Divinópolis,59
+3123908,Entre Rios de Minas,4
+3124104,Esmeraldas,60
+3124500,Estiva,18
+3124906,Eugenópolis,75
+3127354,Glaucilândia,30
+3127701,Governador Valadares,31
+3128006,Guanhães,73
+3128501,Guarará,3
+3129004,Guiricema,1
+3129806,Ibirité,701
+3130002,Ibituruna,20
+3130200,Igaratinga,263
+3131000,Inhaúma,90
+3131703,Itabira,232
+3132206,Itaguara,248
+3133501,Itapecerica,11
+3133808,Itaúna,10
+3135100,Janaúba,2
+3136702,Juiz de Fora,16
+3137205,Lagoa da Prata,11
+3137403,Lagoa Dourada,2
+3137700,Lajinha,3
+3138203,Lavras,477
+3138401,Leopoldina,21
+3138807,Luz,8
+3139003,Machado,28
+3139409,Manhuaçu,2
+3139706,Maravilhas,341
+3140209,Maripá de Minas,83
+3140902,Matipó,5
+3143203,Monte Santo de Minas,1
+3143302,Montes Claros,22
+3144409,Natércia,8
+3145059,Nova Porteirinha,6
+3145802,Onça de Pitangui,5
+3147105,Pará de Minas,1418
+3147204,Paraguaçu,2
+3147402,Paraopeba,19
+3147600,Passa Quatro,2
+3147709,Passa Tempo,17
+3147907,Passos,1041
+3148004,Patos de Minas,1340
+3148103,Patrocínio,1086
+3149705,Perdigão,3
+3150802,Piranga,133
+3151404,Pitangui,6
+3151503,Piumhi,3
+3152105,Ponte Nova,1835
+3152303,Porto Firme,2
+3152709,Prados,422
+3152808,Prata,2
+3154002,Raul Soares,18
+3154903,Rio Casca,7
+3156106,Ritápolis,2
+3156700,Sabará,449
+3157807,Santa Luzia,456
+3157906,Santa Margarida,1
+3158003,Santa Maria de Itabira,2
+3158409,Santana de Cataguases,23
+3158805,Santana do Jacaré,167
+3162922,São Joaquim de Bicas,445
+3163201,São José do Alegre,31
+3164001,São Pedro dos Ferros,361
+3164605,São Sebastião do Oeste,2600
+3167202,Sete Lagoas,1659
+3169000,Tocantins,40
+3169307,Três Corações,2
+3169901,Ubá,27
+3170107,Uberaba,695
+3170206,Uberlândia,6695
+3170503,Urucânia,567
+3171105,Veríssimo,6
+3171303,Viçosa,35
+3172004,Visconde do Rio Branco,2832
+3200706,Atilio Vivacqua,915
+3201209,Cachoeiro de Itapemirim,71
+3201308,Cariacica,92
+3201407,Castelo,1197
+3201506,Colatina,13
+3201902,Domingos Martins,45
+3202702,Itaguaçu,3
+3203205,Linhares,691
+3203304,Mantenópolis,2
+3203346,Marechal Floriano,569
+3203502,Montanha,1
+3204559,Santa Maria de Jetibá,81
+3204906,São Mateus,63
+3205036,Vargem Alta,18
+3205101,Viana,219
+3205200,Vila Velha,205
+3300225,Areal,9
+3300456,Belford Roxo,2
+3300506,Bom Jardim,3
+3301009,Campos dos Goytacazes,1
+3302502,Magé,2
+3302700,Maricá,2
+3303203,Nilópolis,1
+3303500,Nova Iguaçu,4
+3303856,Paty do Alferes,229
+3304144,Queimados,41
+3304557,Rio de Janeiro,1201
+3304706,Santo Antônio de Pádua,1
+3304904,São Gonçalo,2
+3305158,São José do Vale do Rio Preto,644
+3501905,Amparo,2290
+3503208,Araraquara,4
+3503406,Arealva,2
+3504008,Assis,16
+3505203,Bariri,237
+3505807,Bastos,8
+3506102,Bebedouro,4
+3507001,Boituva,2771
+3507308,Boracéia,4
+3508405,Cabreúva,909
+3509403,Cajuru,16
+3509502,Campinas,4
+3510401,Capivari,385
+3510609,Carapicuíba,270
+3511409,Cerqueira César,38
+3511508,Cerquilho,1
+3512803,Cosmópolis,156
+3513207,Cristais Paulista,66
+3516002,Flórida Paulista,187
+3516200,Franca,1
+3517505,Guapiaçu,1442
+3518107,Guarantã,203
+3518602,Guariba,36
+3518800,Guarulhos,1
+3519055,Holambra,760
+3521101,Ipeúna,341
+3522307,Itapetininga,1702
+3522604,Itapira,758
+3522901,Itapuí,1511
+3523206,Itararé,5
+3525706,José Bonifácio,125
+3525854,Jumirim,225
+3526407,Laranjal Paulista,16
+3526704,Leme,235
+3526803,Lençóis Paulista,8
+3527306,Louveira,327
+3530409,Mirassolândia,236
+3530508,Mococa,285
+3532801,Nova Aliança,744
+3533007,Nova Granada,6
+3533601,Nuporanga,2476
+3534005,Onda Verde,177
+3535507,Paraguaçu Paulista,16
+3535705,Paraíso,71
+3536703,Pederneiras,2
+3537503,Pereiras,1015
+3537800,Piedade,2
+3538709,Piracicaba,439
+3539004,Pirangi,574
+3539905,Poloni,62
+3540200,Pontal,2
+3542206,Rancharia,468
+3543907,Rio Claro,302
+3547304,Santana de Parnaíba,4
+3547809,Santo André,78
+3548708,São Bernardo do Campo,21
+3548906,São Carlos,434
+3549102,São João da Boa Vista,1
+3549706,São José do Rio Pardo,479
+3549805,São José do Rio Preto,3
+3550100,São Manuel,20
+3550308,São Paulo,37
+3552205,Sorocaba,1
+3552502,Suzano,55
+3553708,Taquaritinga,11
+3554508,Tietê,1046
+3555000,Tupã,576
+3556206,Valinhos,8
+3556503,Várzea Paulista,2207
+3557105,Votuporanga,1535
+4101002,Ampére,60
+4101507,Arapongas,457
+4102000,Assis Chateaubriand,2634
+4102109,Astorga,12
+4103107,Bocaiúva do Sul,211
+4103453,Cafelândia,5306
+4103800,Cambira,260
+4104204,Campo Largo,21
+4104303,Campo Mourão,1821
+4104501,Capanema,1414
+4104659,Carambeí,2560
+4104808,Cascavel,8212
+4104907,Castro,1840
+4105508,Cianorte,3444
+4105607,Cidade Gaúcha,1058
+4106308,Corbélia,1
+4106902,Curitiba,1778
+4107207,Dois Vizinhos,2911
+4108403,Francisco Beltrão,2733
+4108601,Goioerê,1
+4109401,Guarapuava,11
+4109807,Ibiporã,950
+4110409,Indianópolis,254
+4110607,Iporã,1386
+4110706,Irati,228
+4110953,Itaipulândia,1293
+4111209,Itapejara d'Oeste,1270
+4111506,Ivaiporã,21
+4111803,Jacarezinho,844
+4111902,Jaguapitã,3503
+4112801,Joaquim Távora,2775
+4113205,Lapa,1622
+4113304,Laranjeiras do Sul,424
+4113502,Loanda,49
+4114203,Mandaguari,2842
+4114609,Marechal Cândido Rondon,3429
+4115200,Maringá,4316
+4115606,Matelândia,8027
+4115804,Medianeira,6906
+4117602,Palmas,813
+4117909,Palotina,6606
+4118006,Paraíso do Norte,1466
+4118402,Paranavaí,1666
+4118501,Pato Branco,1536
+4120408,Presidente Castelo Branco,61
+4122305,Rio Negro,108
+4122404,Rolândia,7102
+4122602,Rondon,826
+4123402,Santa Fé,469
+4123808,Santa Izabel do Oeste,2
+4124400,Santo Antônio do Sudoeste,2
+4124509,Santo Inácio,1732
+4124806,São João,1903
+4125100,São João do Triunfo,10
+4125605,São Mateus do Sul,1
+4125704,São Miguel do Iguaçu,1436
+4126504,Sertanópolis,2
+4126603,Siqueira Campos,8
+4127205,Terra Boa,725
+4127700,Toledo,6980
+4128005,Ubiratã,4302
+4128104,Umuarama,1705
+4200101,Abelardo Luz,1548
+4200200,Agrolândia,5
+4201208,Antônio Carlos,21
+4201406,Araranguá,80
+4201505,Armazém,245
+4201802,Atalanta,24
+4201901,Aurora,58
+4202800,Braço do Norte,867
+4202909,Brusque,28
+4203303,Campo Alegre,15
+4203600,Campos Novos,1762
+4203907,Capinzal,4232
+4204202,Chapecó,15065
+4204251,Cocal do Sul,106
+4204301,Concórdia,5866
+4204400,Coronel Freitas,69
+4204608,Criciúma,188
+4205456,Forquilhinha,2387
+4206108,Grão Pará,710
+4206405,Guaraciaba,17
+4206504,Guaramirim,2
+4206652,Guatambú,2833
+4206702,Herval d'Oeste,871
+4207304,Imbituba,4
+4207502,Indaial,435
+4207684,Ipuaçu,975
+4207700,Ipumirim,1658
+4208104,Itaiópolis,2164
+4208401,Itapiranga,4197
+4208609,Jaborá,36
+4208906,Jaraguá do Sul,129
+4209003,Joaçaba,1629
+4210001,Luiz Alves,3
+4210506,Maravilha,2088
+4211256,Morro Grande,26
+4211405,Nova Erechim,186
+4211603,Nova Veneza,1932
+4211900,Palhoça,509
+4212106,Palmitos,6
+4212403,Pedras Grandes,124
+4214003,Presidente Getúlio,1069
+4214201,Quilombo,1939
+4214706,Rio dos Cedros,10
+4214805,Rio do Sul,1996
+4215000,Rio Negrinho,21
+4215505,Santa Cecília,196
+4215802,São Bento do Sul,5
+4216602,São José,1365
+4217105,São Martinho,39
+4217204,São Miguel do Oeste,2815
+4217501,Seara,4363
+4217709,Sombrio,2
+4217758,Sul Brasil,9
+4217808,Taió,59
+4218202,Timbó,39
+4218400,Treze de Maio,1
+4218707,Tubarão,3
+4219309,Videira,4217
+4219507,Xanxerê,56
+4219705,Xaxim,2653
+4300307,Alecrim,4
+4300703,Anta Gorda,43
+4300802,Antônio Prado,6
+4301008,Arroio do Meio,489
+4302402,Bom Retiro do Sul,676
+4304671,Capivari do Sul,2
+4304804,Carlos Barbosa,230
+4304903,Casca,4
+4305108,Caxias do Sul,2704
+4305306,Chapada,8
+4305959,Cotiporã,5
+4306759,Doutor Ricardo,23
+4306809,Encantado,1709
+4307005,Erechim,3142
+4307559,Estação,416
+4307807,Estrela,4
+4307906,Farroupilha,264
+4308003,Faxinal do Soturno,46
+4308201,Flores da Cunha,98
+4308508,Frederico Westphalen,893
+4308607,Garibaldi,2582
+4309001,Giruá,5
+4309555,Harmonia,470
+4311205,Júlio de Castilhos,3
+4311254,Lagoão,1
+4311403,Lajeado,5338
+4311809,Marau,2320
+4312005,Mariano Moro,16
+4312252,Minas do Leão,2
+4312302,Miraguaí,1057
+4312401,Montenegro,2619
+4312450,Morro Redondo,2
+4312476,Morro Reuter,469
+4312757,Nova Alvorada,1
+4312807,Nova Araçá,1042
+4312906,Nova Bassano,5
+4313201,Nova Petrópolis,57
+4313375,Nova Santa Rita,9
+4313508,Osório,429
+4314100,Passo Fundo,3035
+4314407,Pelotas,193
+4314423,Picada Café,20
+4314498,Pinheirinho do Vale,3
+4314753,Poço das Antas,20
+4314779,Pontão,24
+4314902,Porto Alegre,130
+4315149,Presidente Lucena,975
+4315305,Quaraí,1
+4315701,Rio Pardo,5
+4315800,Roca Sales,5
+4316600,Sananduva,384
+4316808,Santa Cruz do Sul,212
+4316907,Santa Maria,26
+4317202,Santa Rosa,1805
+4317509,Santo Ângelo,1904
+4317608,Santo Antônio da Patrulha,1
+4317905,Santo Cristo,29
+4318465,São José do Herval,50
+4318903,São Luiz Gonzaga,679
+4319158,São Miguel das Missões,3
+4319372,São Pedro do Butiá,48
+4319505,São Sebastião do Caí,1120
+4320107,Sarandi,1112
+4320206,Seberi,1974
+4320263,Segredo,6
+4320404,Serafina Corrêa,1566
+4320800,Soledade,752
+4320909,Tapejara,1923
+4321204,Taquara,53
+4321451,Teutônia,66
+4321808,Três de Maio,6
+4321907,Três Passos,1227
+4321956,Trindade do Sul,1721
+4322608,Venâncio Aires,278
+4323358,Vila Lângaro,114
+4323770,Westfália,480
+5001003,Aparecida do Taboado,963
+5002407,Caarapó,490
+5002704,Campo Grande,24
+5003702,Dourados,6631
+5004601,Itaquiraí,2341
+5006309,Paranaíba,2
+5006606,Ponta Porã,2
+5007695,São Gabriel do Oeste,2611
+5007901,Sidrolândia,2771
+5100201,Água Boa,5
+5101308,Arenápolis,4
+5102678,Campo Verde,91
+5104807,Jaciara,43
+5105259,Lucas do Rio Verde,5019
+5105622,Mirassol d'Oeste,2
+5105903,Nobres,6
+5106224,Nova Mutum,3571
+5107909,Sinop,262
+5107925,Sorriso,1337
+5107958,Tangará da Serra,936
+5108402,Várzea Grande,26
+5108857,Nova Marilândia,1333
+5200050,Abadia de Goiás,5
+5201405,Aparecida de Goiânia,125
+5202809,Avelinópolis,10
+5203302,Bela Vista de Goiás,162
+5203906,Buriti Alegre,777
+5205109,Catalão,2
+5205455,Cezarina,1
+5208707,Goiânia,282
+5209101,Goiatuba,68
+5210406,Itaberaí,4173
+5211909,Jataí,463
+5212501,Luziânia,69
+5212600,Mairipotaba,1
+5213103,Mineiros,1959
+5213806,Morrinhos,630
+5214507,Nerópolis,19
+5215009,Nova Veneza,1205
+5215702,Palmeiras de Goiás,1197
+5217104,Piracanjuba,72
+5217401,Pires do Rio,3975
+5218805,Rio Verde,6803
+5221403,Trindade,6
+5300108,Brasília,3186
